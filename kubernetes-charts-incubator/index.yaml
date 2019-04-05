@@ -502,7 +502,7 @@ entries:
     digest: 273f781d93463322984dfcb21a8e70f0c37b669a5ddfaf0040c8d8cd57e4ea5e
     engine: gotpl
     home: http://cassandra.apache.org
-    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    #icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
     keywords:
     - cassandra
     - database
@@ -522,7 +522,7 @@ entries:
     digest: 7d547aa9815ef419152ba640478816b2e7924230aa96cc8dcceaf1bc7b05597d
     engine: gotpl
     home: http://cassandra.apache.org
-    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -542,7 +542,7 @@ entries:
     digest: 2be3a07b71f0f5f6f68ff724da91aa4de77d0430bd553befb859c6e882f6c4ec
     engine: gotpl
     home: http://cassandra.apache.org
-    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -562,7 +562,7 @@ entries:
     digest: acb65035575ffe43604fc5019f6fd8f164330b184fc8630058b0320c2c472aec
     engine: gotpl
     home: http://cassandra.apache.org
-    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -582,7 +582,7 @@ entries:
     digest: 89730e97bea113880bc0bd7e4005497ecb081fab26ca35d2b47064d67850c9f8
     engine: gotpl
     home: http://cassandra.apache.org
-    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -602,7 +602,7 @@ entries:
     digest: 8cc35351ae886accd4afcab24fe45acb6a3ab0c4d1827b764e46c31a45fb0ffc
     engine: gotpl
     home: http://cassandra.apache.org
-    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -622,7 +622,7 @@ entries:
     digest: 457ec82e9ec1ef4eda6dab458829e1b4c535a456c64157fcabd7548798bdb284
     engine: gotpl
     home: http://cassandra.apache.org
-    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -642,7 +642,7 @@ entries:
     digest: 7d0c5e1f8b529aa72cb1b8fcca112f5b7c26ccaefa35b6bd8c32fece6f49aa39
     engine: gotpl
     home: http://cassandra.apache.org
-    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -662,7 +662,7 @@ entries:
     digest: 0388def1b8ea9304f3979182bdcbb475c7ac8b17bd485a6171d3cdc7ac141228
     engine: gotpl
     home: http://cassandra.apache.org
-    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -682,7 +682,7 @@ entries:
     digest: d7fcd0f776cb3d9442135f35421baa30598ff40b4a7b696a7228d94e5ec67c8f
     engine: gotpl
     home: http://cassandra.apache.org
-    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -702,7 +702,7 @@ entries:
     digest: f9775c3baaca8af3ff5ea966ee9cbbf3309785cd68ee4ece3d792fe5d5e167f3
     engine: gotpl
     home: http://cassandra.apache.org
-    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
