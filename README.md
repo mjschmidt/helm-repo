@@ -14,6 +14,11 @@ gcloud init
 gsutil -m cp -R gs://kubernetes-charts .
 gsutil -m cp -R gs://kubernetes-charts-incubator .
 
+#Create the zip files
+zip -r kubernetes-charts.zip kubernetes-charts
+zip -r kubernetes-charts-incubator.zip kubernetes-charts-incubator
+
+
 #how to add a repo
 helm repo add sample 'https://raw.githubusercontent.com/mjschmidt/test-helm-repo/master/kubernetes-charts/'
 ```
