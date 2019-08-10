@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   artifactory:
   - appVersion: 5.2.0
-    created: 2019-04-05T12:27:12.888447411Z
+    created: 2019-07-08T14:58:51.548241452Z
     deprecated: true
     description: DEPRECATED Universal Repository Manager supporting all major packaging
       formats, build tools and CI servers.
@@ -115,7 +115,91 @@ entries:
   aws-alb-ingress-controller:
   - apiVersion: v1
     appVersion: v1.1.2
-    created: 2019-04-05T12:27:12.888826662Z
+    created: 2019-07-08T14:58:51.548713235Z
+    description: A Helm chart for AWS ALB Ingress Controller
+    digest: 96248cbadec07ec2d4ab4b5fed9a5c7b651d43e996a6ceb0b065ebf8843c03b2
+    engine: gotpl
+    home: https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    keywords:
+    - aws
+    - ingress
+    maintainers:
+    - email: kraig.amador@ticketmaster.com
+      name: bigkraig
+    - email: yyyng@amazon.com
+      name: M00nF1sh
+    name: aws-alb-ingress-controller
+    sources:
+    - https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/aws-alb-ingress-controller-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v1
+    appVersion: v1.1.2
+    created: 2019-07-01T17:28:59.376657738Z
+    description: A Helm chart for AWS ALB Ingress Controller
+    digest: 09d7d450fd40061f47c9b8c3002ed3b04e1f93d5f0e308be40a1fa3138c27b32
+    engine: gotpl
+    home: https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    keywords:
+    - aws
+    - ingress
+    maintainers:
+    - email: kraig.amador@ticketmaster.com
+      name: bigkraig
+    - email: yyyng@amazon.com
+      name: M00nF1sh
+    name: aws-alb-ingress-controller
+    sources:
+    - https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/aws-alb-ingress-controller-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v1
+    appVersion: v1.1.2
+    created: 2019-06-17T21:58:07.951098941Z
+    description: A Helm chart for AWS ALB Ingress Controller
+    digest: 36982cd666fa54bc9621ffdde0bce1b5695875330005b297acab8b4e4526c5aa
+    engine: gotpl
+    home: https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    keywords:
+    - aws
+    - ingress
+    maintainers:
+    - email: kraig.amador@ticketmaster.com
+      name: bigkraig
+    - email: yyyng@amazon.com
+      name: M00nF1sh
+    name: aws-alb-ingress-controller
+    sources:
+    - https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/aws-alb-ingress-controller-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v1
+    appVersion: v1.1.2
+    created: 2019-05-22T19:43:06.229173517Z
+    description: A Helm chart for AWS ALB Ingress Controller
+    digest: d4af560bed32e02d1ac18a6a4f1622e148ad414580fef3f9449f570ea3d01f2d
+    engine: gotpl
+    home: https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    keywords:
+    - aws
+    - ingress
+    maintainers:
+    - email: kraig.amador@ticketmaster.com
+      name: bigkraig
+    - email: yyyng@amazon.com
+      name: M00nF1sh
+    name: aws-alb-ingress-controller
+    sources:
+    - https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/aws-alb-ingress-controller-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v1
+    appVersion: v1.1.2
+    created: 2019-04-16T17:27:35.542515719Z
     description: A Helm chart for AWS ALB Ingress Controller
     digest: 9cea0cb88913afe407d9e5a91a765a97c13436c7dc5a7018a31a773cd1f741b1
     engine: gotpl
@@ -178,8 +262,38 @@ entries:
     version: 0.1.4
   azuremonitor-containers:
   - apiVersion: v1
+    appVersion: 4.0.0-0
+    created: 2019-07-08T14:58:51.549122888Z
+    description: Helm chart for deploying Azure Monitor container monitoring agent
+      in Kubernetes
+    digest: e8165aba1bc48f51f0bce7f6ec2d513f6e01da52c94356918e7cd8633897485e
+    home: https://docs.microsoft.com/en-us/azure/monitoring/monitoring-container-health
+    icon: https://raw.githubusercontent.com/Microsoft/OMS-docker/ci_feature/img/azuremonitor-containers.svg
+    keywords:
+    - monitoring
+    - azuremonitor
+    - azure
+    - oms
+    - containerinsights
+    - metric
+    - event
+    - logs
+    - containerhealth
+    - kubernetesmonitoring
+    - acs-engine
+    - aks-engine
+    maintainers:
+    - email: visnara@microsoft.com
+      name: vishiy
+    name: azuremonitor-containers
+    sources:
+    - https://github.com/Microsoft/OMS-docker/tree/ci_feature_prod
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/azuremonitor-containers-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v1
     appVersion: 2.0.0-3
-    created: 2019-04-05T12:27:12.889232155Z
+    created: 2019-05-14T21:57:46.686279092Z
     description: Helm chart for deploying Azure Monitor container monitoring agent
       in Kubernetes
     digest: 81f2cc9c1e7705365b0f3460dfecf18a558dc14e9fa617bf7ac88d27edb9e47e
@@ -299,7 +413,7 @@ entries:
     version: 0.1.0
   burrow:
   - appVersion: 0.17.1
-    created: 2019-04-05T12:27:12.889806556Z
+    created: 2019-07-08T14:58:51.549684918Z
     deprecated: true
     description: Burrow is a permissionable smart contract machine
     digest: e533a1c60a440254a6bd352b629a90c62fc1ef08523d67e429a7be11d7fb48da
@@ -394,8 +508,140 @@ entries:
     version: 0.3.0
   buzzfeed-sso:
   - apiVersion: v1
+    appVersion: 1.2.0
+    created: 2019-07-08T14:58:51.550163794Z
+    description: Single sign-on for your Kubernetes services using Google OAuth
+    digest: 7b0deb87aa57488fc25a7f69ae6511d77c9757ca379f5a670f110d9835a20231
+    home: https://github.com/buzzfeed/sso
+    icon: https://user-images.githubusercontent.com/10510566/44476420-a64e5980-a605-11e8-8ad9-2820109deb75.png
+    keywords:
+    - sso
+    - octoboi
+    - ssoctopus
+    maintainers:
+    - email: dblanco@minddoc.de
+      name: darioblanco
+    - email: alen.komljen@live.com
+      name: komljen
+    name: buzzfeed-sso
+    sources:
+    - https://hub.docker.com/r/buzzfeed/sso/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/buzzfeed-sso-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v1
+    appVersion: 1.2.0
+    created: 2019-06-19T17:28:17.869173796Z
+    description: Single sign-on for your Kubernetes services using Google OAuth
+    digest: 22304aa4f36a87f3edda88cb174439b194b063af612a6a73e4251716e2ebe7b0
+    home: https://github.com/buzzfeed/sso
+    icon: https://user-images.githubusercontent.com/10510566/44476420-a64e5980-a605-11e8-8ad9-2820109deb75.png
+    keywords:
+    - sso
+    - octoboi
+    - ssoctopus
+    maintainers:
+    - email: dblanco@minddoc.de
+      name: darioblanco
+    - email: alen.komljen@live.com
+      name: komljen
+    name: buzzfeed-sso
+    sources:
+    - https://hub.docker.com/r/buzzfeed/sso/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/buzzfeed-sso-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v1
+    appVersion: 1.2.0
+    created: 2019-06-14T12:27:49.607651761Z
+    description: Single sign-on for your Kubernetes services using Google OAuth
+    digest: 3a30b7b826d91c42452e9d3d6d3b54b388d7345f4bf683f3e3d7f87c6124dabb
+    home: https://github.com/buzzfeed/sso
+    icon: https://user-images.githubusercontent.com/10510566/44476420-a64e5980-a605-11e8-8ad9-2820109deb75.png
+    keywords:
+    - sso
+    - octoboi
+    - ssoctopus
+    maintainers:
+    - email: dblanco@minddoc.de
+      name: darioblanco
+    - email: alen.komljen@live.com
+      name: komljen
+    name: buzzfeed-sso
+    sources:
+    - https://hub.docker.com/r/buzzfeed/sso/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/buzzfeed-sso-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v1
+    appVersion: 1.2.0
+    created: 2019-06-14T10:57:50.048421476Z
+    description: Single sign-on for your Kubernetes services using Google OAuth
+    digest: 280303d3b10808f35027a567ebb70c0982aa73551026a19ac9321d33f0da57fa
+    home: https://github.com/buzzfeed/sso
+    icon: https://user-images.githubusercontent.com/10510566/44476420-a64e5980-a605-11e8-8ad9-2820109deb75.png
+    keywords:
+    - sso
+    - octoboi
+    - ssoctopus
+    maintainers:
+    - email: dblanco@minddoc.de
+      name: darioblanco
+    - email: alen.komljen@live.com
+      name: komljen
+    name: buzzfeed-sso
+    sources:
+    - https://hub.docker.com/r/buzzfeed/sso/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/buzzfeed-sso-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v1
     appVersion: 1.1.0
-    created: 2019-04-05T12:27:12.890248655Z
+    created: 2019-06-14T06:28:33.803573973Z
+    description: Single sign-on for your Kubernetes services using Google OAuth
+    digest: 86cc946f0e186d029fb638387c09547bac972edc658fab8489669c2313fdf35b
+    home: https://github.com/buzzfeed/sso
+    icon: https://user-images.githubusercontent.com/10510566/44476420-a64e5980-a605-11e8-8ad9-2820109deb75.png
+    keywords:
+    - sso
+    - octoboi
+    - ssoctopus
+    maintainers:
+    - email: dblanco@minddoc.de
+      name: darioblanco
+    - email: alen.komljen@live.com
+      name: komljen
+    name: buzzfeed-sso
+    sources:
+    - https://hub.docker.com/r/buzzfeed/sso/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/buzzfeed-sso-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: 2019-06-13T13:58:13.038548318Z
+    description: Single sign-on for your Kubernetes services using Google OAuth
+    digest: cc56bfb7eaf8870bee2a0147415b13eefdf33ee0011d9d70b273614b971008de
+    home: https://github.com/buzzfeed/sso
+    icon: https://user-images.githubusercontent.com/10510566/44476420-a64e5980-a605-11e8-8ad9-2820109deb75.png
+    keywords:
+    - sso
+    - octoboi
+    - ssoctopus
+    maintainers:
+    - email: dblanco@minddoc.de
+      name: darioblanco
+    - email: alen.komljen@live.com
+      name: komljen
+    name: buzzfeed-sso
+    sources:
+    - https://hub.docker.com/r/buzzfeed/sso/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/buzzfeed-sso-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: 2019-06-13T12:28:27.684078001Z
     description: Single sign-on for your Kubernetes services using Google OAuth
     digest: 85ed04c29655e306e0eb8960b8238d68863c4588d48601133b8f4ca006e9f0db
     home: https://github.com/buzzfeed/sso
@@ -414,8 +660,138 @@ entries:
     - https://kubernetes-charts-incubator.storage.googleapis.com/buzzfeed-sso-0.0.1.tgz
     version: 0.0.1
   cassandra:
+  - apiVersion: v1
+    appVersion: 3.11.3
+    created: 2019-07-08T14:58:51.550716784Z
+    description: Apache Cassandra is a free and open-source distributed database management
+      system designed to handle large amounts of data across many commodity servers,
+      providing high availability with no single point of failure.
+    digest: 1fce06a65e30d323627461eea535626500dd1118dca0946a598dd80c75313415
+    engine: gotpl
+    home: http://cassandra.apache.org
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    maintainers:
+    - email: goonohc@gmail.com
+      name: KongZ
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    name: cassandra
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/cassandra-0.13.1.tgz
+    version: 0.13.1
+  - apiVersion: v1
+    appVersion: 3.11.3
+    created: 2019-06-12T04:27:33.146829067Z
+    description: Apache Cassandra is a free and open-source distributed database management
+      system designed to handle large amounts of data across many commodity servers,
+      providing high availability with no single point of failure.
+    digest: dd944a0e6845da4cf0aaa9f158366ef7470d72ad567875ed8011766e685dbd62
+    engine: gotpl
+    home: http://cassandra.apache.org
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    maintainers:
+    - email: goonohc@gmail.com
+      name: KongZ
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    name: cassandra
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/cassandra-0.13.0.tgz
+    version: 0.13.0
+  - apiVersion: v1
+    appVersion: 3.11.3
+    created: 2019-06-04T03:58:16.815033143Z
+    description: Apache Cassandra is a free and open-source distributed database management
+      system designed to handle large amounts of data across many commodity servers,
+      providing high availability with no single point of failure.
+    digest: 783016de55f5a9716bf90b684cad9353e9afc1575be84c75aa4f241bf31262a8
+    engine: gotpl
+    home: http://cassandra.apache.org
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    maintainers:
+    - email: goonohc@gmail.com
+      name: KongZ
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    name: cassandra
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/cassandra-0.12.2.tgz
+    version: 0.12.2
+  - apiVersion: v1
+    appVersion: 3.11.3
+    created: 2019-05-21T04:27:35.803571467Z
+    description: Apache Cassandra is a free and open-source distributed database management
+      system designed to handle large amounts of data across many commodity servers,
+      providing high availability with no single point of failure.
+    digest: fd28213f1fddc8bde837541a2e711109617327968a075df7951bb0b83a3ae0cf
+    engine: gotpl
+    home: http://cassandra.apache.org
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    maintainers:
+    - email: goonohc@gmail.com
+      name: KongZ
+    name: cassandra
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/cassandra-0.12.1.tgz
+    version: 0.12.1
   - appVersion: 3.11.3
-    created: 2019-04-05T12:27:12.890792912Z
+    created: 2019-05-15T11:57:30.175859512Z
+    description: Apache Cassandra is a free and open-source distributed database management
+      system designed to handle large amounts of data across many commodity servers,
+      providing high availability with no single point of failure.
+    digest: c88ee426414bc67c3fd94b6530a919edc38ef0fce0ec4f05662beb7556e0a86e
+    engine: gotpl
+    home: http://cassandra.apache.org
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    maintainers:
+    - email: goonohc@gmail.com
+      name: KongZ
+    name: cassandra
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/cassandra-0.12.0.tgz
+    version: 0.12.0
+  - appVersion: 3.11.3
+    created: 2019-04-25T13:27:34.715904639Z
+    description: Apache Cassandra is a free and open-source distributed database management
+      system designed to handle large amounts of data across many commodity servers,
+      providing high availability with no single point of failure.
+    digest: b77e25a87858b37237aa796e8bceb6dc096ceda02a6a029c0feb1878704c4262
+    engine: gotpl
+    home: http://cassandra.apache.org
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    maintainers:
+    - email: goonohc@gmail.com
+      name: KongZ
+    name: cassandra
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/cassandra-0.11.1.tgz
+    version: 0.11.1
+  - appVersion: 3.11.3
+    created: 2019-04-12T08:27:18.105869256Z
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure.
@@ -502,7 +878,7 @@ entries:
     digest: 273f781d93463322984dfcb21a8e70f0c37b669a5ddfaf0040c8d8cd57e4ea5e
     engine: gotpl
     home: http://cassandra.apache.org
-    #icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
     keywords:
     - cassandra
     - database
@@ -522,7 +898,7 @@ entries:
     digest: 7d547aa9815ef419152ba640478816b2e7924230aa96cc8dcceaf1bc7b05597d
     engine: gotpl
     home: http://cassandra.apache.org
-    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -542,7 +918,7 @@ entries:
     digest: 2be3a07b71f0f5f6f68ff724da91aa4de77d0430bd553befb859c6e882f6c4ec
     engine: gotpl
     home: http://cassandra.apache.org
-    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -562,7 +938,7 @@ entries:
     digest: acb65035575ffe43604fc5019f6fd8f164330b184fc8630058b0320c2c472aec
     engine: gotpl
     home: http://cassandra.apache.org
-    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -582,7 +958,7 @@ entries:
     digest: 89730e97bea113880bc0bd7e4005497ecb081fab26ca35d2b47064d67850c9f8
     engine: gotpl
     home: http://cassandra.apache.org
-    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -602,7 +978,7 @@ entries:
     digest: 8cc35351ae886accd4afcab24fe45acb6a3ab0c4d1827b764e46c31a45fb0ffc
     engine: gotpl
     home: http://cassandra.apache.org
-    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -622,7 +998,7 @@ entries:
     digest: 457ec82e9ec1ef4eda6dab458829e1b4c535a456c64157fcabd7548798bdb284
     engine: gotpl
     home: http://cassandra.apache.org
-    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -642,7 +1018,7 @@ entries:
     digest: 7d0c5e1f8b529aa72cb1b8fcca112f5b7c26ccaefa35b6bd8c32fece6f49aa39
     engine: gotpl
     home: http://cassandra.apache.org
-    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -662,7 +1038,7 @@ entries:
     digest: 0388def1b8ea9304f3979182bdcbb475c7ac8b17bd485a6171d3cdc7ac141228
     engine: gotpl
     home: http://cassandra.apache.org
-    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -682,7 +1058,7 @@ entries:
     digest: d7fcd0f776cb3d9442135f35421baa30598ff40b4a7b696a7228d94e5ec67c8f
     engine: gotpl
     home: http://cassandra.apache.org
-    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -702,7 +1078,7 @@ entries:
     digest: f9775c3baaca8af3ff5ea966ee9cbbf3309785cd68ee4ece3d792fe5d5e167f3
     engine: gotpl
     home: http://cassandra.apache.org
-    #icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     keywords:
     - cassandra
     - database
@@ -1278,10 +1654,78 @@ entries:
     urls:
     - https://kubernetes-charts-incubator.storage.googleapis.com/cassandra-0.1.0.tgz
     version: 0.1.0
+  cassandra-operator:
+  - apiVersion: v1
+    appVersion: 0.3.1-mater
+    created: 2019-07-08T14:58:51.551088193Z
+    description: A Helm chart for CassKop - the Orange Cassandra Kubernetes operator
+    digest: b47f33716cb26fc7cf6ea91d594216380453290716194294cde86febf3586e52
+    home: https://github.com/Orange-OpenSource/cassandra-k8s-operator
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    keywords:
+    - operator
+    - cassandra
+    - casskop
+    - database
+    - nosql
+    maintainers:
+    - email: sebastien.allamand@orange.com
+      name: allamand
+    - email: cscetbon.ext@orange.com
+      name: Orange-cscetbon
+    - email: jeanarmel.luce@orange.com
+      name: jal06
+    name: cassandra-operator
+    sources:
+    - https://github.com/Orange-OpenSource/cassandra-k8s-operator
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/cassandra-operator-0.3.2.tgz
+    version: 0.3.2
+  - apiVersion: v1
+    appVersion: 0.3.1-mater
+    created: 2019-06-27T23:29:05.305894059Z
+    description: A Helm chart for CassKop - the Orange Cassandra Kubernetes operator
+    digest: cd219b8485c030d03f3573dc5ccc3a0c7df7f72fb81c53d9ac7fa40b83960d1a
+    home: https://github.com/Orange-OpenSource/cassandra-k8s-operator
+    keywords:
+    - operator
+    - cassandra
+    - casskop
+    maintainers:
+    - email: sebastien.allamand@orange.com
+      name: allamand
+    - email: cscetbon.ext@orange.com
+      name: Orange-cscetbon
+    - email: jeanarmel.luce@orange.com
+      name: jal06
+    name: cassandra-operator
+    sources:
+    - https://github.com/Orange-OpenSource/cassandra-k8s-operator
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/cassandra-operator-0.3.1.tgz
+    version: 0.3.1
+  cassandra-reaper:
+  - apiVersion: v1
+    appVersion: 1.3.0
+    created: 2019-07-08T14:58:51.55136477Z
+    description: Reaper is a centralized, stateful, and highly configurable tool for
+      running Apache Cassandra repairs against single or multi-site clusters.
+    digest: efa0aaac37baefabb8612907f30badaf03844380a115d439216caf3c42ab5cfc
+    engine: gotpl
+    home: http://cassandra-reaper.io/
+    keywords:
+    - cassandra
+    maintainers:
+    - email: kamil@szczygiel.io
+      name: kamsz
+    name: cassandra-reaper
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/cassandra-reaper-0.2.0.tgz
+    version: 0.2.0
   chartmuseum:
   - apiVersion: v1
     appVersion: 0.5.1
-    created: 2019-04-05T12:27:12.891226742Z
+    created: 2019-07-08T14:58:51.551814164Z
     deprecated: true
     description: Helm Chart Repository with support for Amazon S3 and Google Cloud
       Storage
@@ -1674,7 +2118,7 @@ entries:
   check-mk:
   - apiVersion: v1
     appVersion: 1.4.0p26
-    created: 2019-04-05T12:27:12.891484849Z
+    created: 2019-07-08T14:58:51.552350941Z
     description: check_mk monitoring
     digest: 3417e26a1e32db048f046dc9f2877c1bc0ed1b2eb104a0b3cde09babd96f7b9b
     engine: gotpl
@@ -1766,7 +2210,7 @@ entries:
   common:
   - apiVersion: v1
     appVersion: 0.0.5
-    created: 2019-04-05T12:27:12.891955001Z
+    created: 2019-07-08T14:58:51.553970654Z
     description: Common chartbuilding components and helpers
     digest: 6bed63434c6d23bc6e3226f9181480b65e6f079d04ca3f9b82c3a2934cd0d7a8
     home: https://helm.sh
@@ -1907,8 +2351,80 @@ entries:
     - http://storage.googleapis.com/kubernetes-charts-incubator/consul-0.1.0.tgz
     version: 0.1.0
   couchdb:
+  - apiVersion: v1
+    appVersion: 2.3.1
+    created: 2019-07-08T14:58:51.55465646Z
+    description: A database featuring seamless multi-master sync, that scales from
+      big data to mobile, with an intuitive HTTP/JSON API and designed for reliability.
+    digest: 622b631d51b06dbf1f4582e70bdaffb7a6ea1b2bcd00c3a18c867374ca7bc020
+    home: https://couchdb.apache.org/
+    icon: http://couchdb.apache.org/CouchDB-visual-identity/logo/CouchDB-couch-symbol.svg
+    maintainers:
+    - email: kocolosk@apache.org
+      name: kocolosk
+    name: couchdb
+    sources:
+    - https://github.com/apache/couchdb
+    - https://github.com/kocolosk/couchdb-statefulset-assembler
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/couchdb-1.2.2.tgz
+    version: 1.2.2
+  - apiVersion: v1
+    appVersion: 2.3.1
+    created: 2019-07-05T06:58:22.887986845Z
+    description: A database featuring seamless multi-master sync, that scales from
+      big data to mobile, with an intuitive HTTP/JSON API and designed for reliability.
+    digest: c5b95d268d08161749694a7a842bb5c0a343be1ee33e0a4005fbdd065f9e08d8
+    home: https://couchdb.apache.org/
+    icon: http://couchdb.apache.org/CouchDB-visual-identity/logo/CouchDB-couch-symbol.svg
+    maintainers:
+    - email: kocolosk@apache.org
+      name: kocolosk
+    name: couchdb
+    sources:
+    - https://github.com/apache/couchdb
+    - https://github.com/kocolosk/couchdb-statefulset-assembler
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/couchdb-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v1
+    appVersion: 2.3.1
+    created: 2019-06-27T19:58:18.449279452Z
+    description: A database featuring seamless multi-master sync, that scales from
+      big data to mobile, with an intuitive HTTP/JSON API and designed for reliability.
+    digest: 3a63caa66253fcced6944f10ef94377cd517e4dac972d056eff8bd2c27ad0bb4
+    home: https://couchdb.apache.org/
+    icon: http://couchdb.apache.org/CouchDB-visual-identity/logo/CouchDB-couch-symbol.svg
+    maintainers:
+    - email: kocolosk@apache.org
+      name: kocolosk
+    name: couchdb
+    sources:
+    - https://github.com/apache/couchdb
+    - https://github.com/kocolosk/couchdb-statefulset-assembler
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/couchdb-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v1
+    appVersion: 2.3.0
+    created: 2019-06-17T09:27:35.827033352Z
+    description: A database featuring seamless multi-master sync, that scales from
+      big data to mobile, with an intuitive HTTP/JSON API and designed for reliability.
+    digest: 68d7ec186845f6cde467db02355c9a87738b23ee67be11afdb2f5689feec105c
+    home: https://couchdb.apache.org/
+    icon: http://couchdb.apache.org/CouchDB-visual-identity/logo/CouchDB-couch-symbol.svg
+    maintainers:
+    - email: kocolosk@apache.org
+      name: kocolosk
+    name: couchdb
+    sources:
+    - https://github.com/apache/couchdb
+    - https://github.com/kocolosk/couchdb-statefulset-assembler
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/couchdb-1.1.3.tgz
+    version: 1.1.3
   - appVersion: 2.3.0
-    created: 2019-04-05T12:27:12.892377841Z
+    created: 2019-05-15T11:27:47.605409016Z
     description: A database featuring seamless multi-master sync, that scales from
       big data to mobile, with an intuitive HTTP/JSON API and designed for reliability.
     digest: bf4734e3348e57bde5ef4fa72020c9b6cb54b5ce4192018bb098775519faca2c
@@ -2147,7 +2663,7 @@ entries:
   distribution:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2019-04-05T12:27:12.893408081Z
+    created: 2019-07-08T14:58:51.556338445Z
     deprecated: true
     description: DEPRECATED A Helm chart for JFrog Distribution
     digest: 52cbc2bbc59f7c3067171e1a2745ece843477f0609eeea7722654ec3e851af3a
@@ -2278,7 +2794,7 @@ entries:
     version: 0.1.0
   drone:
   - appVersion: 0.8.5
-    created: 2019-04-05T12:27:12.893893098Z
+    created: 2019-07-08T14:58:51.557036918Z
     deprecated: true
     description: DEPRECATED Drone is a Continuous Delivery system built on container
       technology
@@ -2784,10 +3300,31 @@ entries:
   druid:
   - apiVersion: v1
     appVersion: 0.12.3
-    created: 2019-04-05T12:27:12.895444599Z
+    created: 2019-07-08T14:58:51.559259136Z
     description: Apache Druid (incubating) is a high performance analytics data store
       for event-driven data.
-    digest: 0f40d177adff85f6115fca30bf084e6eace6ff86e2c8a78ea08edee3a9428f0d
+    digest: b14e9585c702fd6a799f24b89b9d323abdb850bc2c877c588adb8af93fd10f84
+    home: http://druid.io/
+    icon: http://druid.io/img/druid_nav.png
+    keywords:
+    - olap
+    - database
+    - analytics
+    maintainers:
+    - email: maciek@brynski.pl
+      name: maver1ck
+    name: druid
+    sources:
+    - https://github.com/apache/incubator-druid
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/druid-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: 0.12.3
+    created: 2019-06-28T00:58:10.536723115Z
+    description: Apache Druid (incubating) is a high performance analytics data store
+      for event-driven data.
+    digest: 116709d0b660e1a247f3b40ffbf1393ff69d5407eee9b07600739fe8fbc9b3bf
     home: http://druid.io/
     icon: http://druid.io/img/druid_nav.png
     keywords:
@@ -2806,10 +3343,10 @@ entries:
   elastic-stack:
   - apiVersion: v1
     appVersion: "6"
-    created: 2019-04-05T12:27:12.901702026Z
+    created: 2019-07-08T14:58:51.564960507Z
     deprecated: true
     description: A Helm chart for ELK
-    digest: 5c74a5fb4a019815dbd9a364d396aae4b6a563e51435379746ea71c1d420e580
+    digest: 45557c274eea46e49705cc58917b716cc5c594f2518dd78c2d27cb303997425c
     home: https://www.elastic.co/products
     icon: https://www.elastic.co/assets/bltb35193323e8f1770/logo-elastic-stack-lt.svg
     name: elastic-stack
@@ -2944,7 +3481,7 @@ entries:
     version: 0.8.0
   elasticsearch:
   - appVersion: 6.4.2
-    created: 2019-04-05T12:27:12.902632067Z
+    created: 2019-07-08T14:58:51.56592981Z
     deprecated: true
     description: DEPRECATED Flexible and powerful open source, distributed real-time
       search and analytics engine.
@@ -4174,7 +4711,7 @@ entries:
   elasticsearch-curator:
   - apiVersion: v1
     appVersion: 5.5.4
-    created: 2019-04-05T12:27:12.903150975Z
+    created: 2019-07-08T14:58:51.566440761Z
     deprecated: true
     description: A Helm chart for Elasticsearch Curator
     digest: 45c3973418fcbd7aa282d4fbbc26c34fee397cc5dd0782c2706fe099bc4cc3c6
@@ -4429,8 +4966,25 @@ entries:
     - https://kubernetes-charts-incubator.storage.googleapis.com/elasticsearch-curator-0.1.0.tgz
     version: 0.1.0
   etcd:
+  - apiVersion: v1
+    appVersion: 2.2.5
+    created: 2019-07-08T14:58:51.567055319Z
+    description: Distributed reliable key-value store for the most critical data of
+      a distributed system.
+    digest: c1cb793c28b13ec07551f69fab7a97b7beb8dbd06be5f6e14b3fc14d63204cbe
+    home: https://github.com/coreos/etcd
+    icon: https://raw.githubusercontent.com/coreos/etcd/master/logos/etcd-horizontal-color.png
+    maintainers:
+    - email: lachlan@deis.com
+      name: lachie83
+    name: etcd
+    sources:
+    - https://github.com/coreos/etcd
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/etcd-0.6.3.tgz
+    version: 0.6.3
   - appVersion: 2.2.5
-    created: 2019-04-05T12:27:12.903711738Z
+    created: 2019-05-15T11:27:47.613199652Z
     description: Distributed reliable key-value store for the most critical data of
       a distributed system.
     digest: 530469dbbc024b180932453ee5c75e44ffebd618adc391aeaa5b56ae19146ae9
@@ -4748,7 +5302,7 @@ entries:
   fluentd:
   - apiVersion: v1
     appVersion: v2.3.1
-    created: 2019-04-05T12:27:12.9042093Z
+    created: 2019-07-08T14:58:51.567587375Z
     deprecated: true
     description: A Fluentd Elasticsearch Helm chart for Kubernetes.
     digest: 7ecf28a30b8b74b664199e424dfca8ada0c9ae2006bf4d6cce59bb3b7a2f5d33
@@ -4834,8 +5388,163 @@ entries:
     - https://kubernetes-charts-incubator.storage.googleapis.com/fluentd-0.1.3.tgz
     version: 0.1.3
   fluentd-cloudwatch:
+  - apiVersion: v1
+    appVersion: v1.3.3-debian-cloudwatch-1.0
+    created: 2019-07-08T14:58:51.568311884Z
+    description: A Fluentd CloudWatch Helm chart for Kubernetes.
+    digest: ece2453644d7efb39411e399e7d7cd1dfeb41fd84edda254cd2f55a8a0591d47
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - cloudwatch
+    - logging
+    maintainers:
+    - email: jm.carp@gmail.com
+      name: jmcarp
+    - email: michael.haselton@gmail.com
+      name: icereval
+    - email: quentin.nerden@stylight.com
+      name: kenden
+    name: fluentd-cloudwatch
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/fluentd-cloudwatch-0.10.1.tgz
+    version: 0.10.1
+  - apiVersion: v1
+    appVersion: v1.3.3-debian-cloudwatch-1.0
+    created: 2019-06-11T09:58:12.156984494Z
+    description: A Fluentd CloudWatch Helm chart for Kubernetes.
+    digest: 614e46bcd53ca90fe34af2e1db4538ea1ee3deca0063aef442c77a9c2c5b9b77
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - cloudwatch
+    - logging
+    maintainers:
+    - email: jm.carp@gmail.com
+      name: jmcarp
+    - email: michael.haselton@gmail.com
+      name: icereval
+    - email: quentin.nerden@stylight.com
+      name: kenden
+    name: fluentd-cloudwatch
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/fluentd-cloudwatch-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v1
+    appVersion: v1.3.3-debian-cloudwatch-1.0
+    created: 2019-05-26T23:30:06.926008104Z
+    description: A Fluentd CloudWatch Helm chart for Kubernetes.
+    digest: d0d4db880169f9a197eed601fdd7b9c6f1828ced71d618ef31fddfd51b29105f
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - cloudwatch
+    - logging
+    maintainers:
+    - email: jm.carp@gmail.com
+      name: jmcarp
+    - email: michael.haselton@gmail.com
+      name: icereval
+    - email: quentin.nerden@stylight.com
+      name: kenden
+    name: fluentd-cloudwatch
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/fluentd-cloudwatch-0.9.1.tgz
+    version: 0.9.1
+  - apiVersion: v1
+    appVersion: v1.3.3-debian-cloudwatch-1.0
+    created: 2019-05-22T11:57:27.282590425Z
+    description: A Fluentd CloudWatch Helm chart for Kubernetes.
+    digest: da536059536bf918a4b23de58cc0e6a7edce51ee350ed3e31cbd0df67e84e730
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - cloudwatch
+    - logging
+    maintainers:
+    - email: jm.carp@gmail.com
+      name: jmcarp
+    - email: michael.haselton@gmail.com
+      name: icereval
+    - email: quentin.nerden@stylight.com
+      name: kenden
+    name: fluentd-cloudwatch
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/fluentd-cloudwatch-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v1
+    appVersion: v1.3.3-debian-cloudwatch-1.0
+    created: 2019-05-16T07:27:21.901806822Z
+    description: A Fluentd CloudWatch Helm chart for Kubernetes.
+    digest: 1c7a7c9676c7b008265d2f1c008544dc05edc483e50560fdbc51dbfb49996407
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - cloudwatch
+    - logging
+    maintainers:
+    - email: jm.carp@gmail.com
+      name: jmcarp
+    - email: michael.haselton@gmail.com
+      name: icereval
+    - email: quentin.nerden@stylight.com
+      name: kenden
+    name: fluentd-cloudwatch
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/fluentd-cloudwatch-0.8.1.tgz
+    version: 0.8.1
+  - appVersion: v1.3.3-debian-cloudwatch-1.0
+    created: 2019-05-15T11:27:47.6139451Z
+    description: A Fluentd CloudWatch Helm chart for Kubernetes.
+    digest: 1a21bfb969a2022711a4566a5df471178c2fea4c800543a6655718e1976af923
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - cloudwatch
+    - logging
+    maintainers:
+    - email: jm.carp@gmail.com
+      name: jmcarp
+    - email: michael.haselton@gmail.com
+      name: icereval
+    - email: quentin.nerden@stylight.com
+      name: kenden
+    name: fluentd-cloudwatch
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/fluentd-cloudwatch-0.8.0.tgz
+    version: 0.8.0
   - appVersion: v0.12.43-cloudwatch
-    created: 2019-04-05T12:27:12.904833074Z
+    created: 2019-04-28T22:31:21.678459606Z
     description: A Fluentd CloudWatch Helm chart for Kubernetes.
     digest: 866a2b17149dc4b803247c1e5d9e6fa43468f5ae98940e729c6bdc731b5937f8
     engine: gotpl
@@ -5281,7 +5990,7 @@ entries:
     version: 0.1.1
   fluentd-elasticsearch:
   - appVersion: 2.3.2
-    created: 2019-04-05T12:27:12.905734828Z
+    created: 2019-07-08T14:58:51.569319501Z
     deprecated: true
     description: DEPRECATED! - A Fluentd Helm chart for Kubernetes with Elasticsearch
       output
@@ -6014,7 +6723,39 @@ entries:
   gogs:
   - apiVersion: v1
     appVersion: 0.11.86
-    created: 2019-04-05T12:27:12.90675082Z
+    created: 2019-07-08T14:58:51.570512175Z
+    description: 'Gogs: Go Git Service'
+    digest: f1cf97cc089313198603aa9a552808a76113261814f7defc034b0182b9983709
+    home: https://gogs.io/
+    icon: https://gogs.io/img/favicon.ico
+    keywords:
+    - git
+    maintainers:
+    - name: obeyler
+    - name: poblin-orange
+    name: gogs
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/gogs-0.7.10.tgz
+    version: 0.7.10
+  - apiVersion: v1
+    appVersion: 0.11.86
+    created: 2019-06-16T17:58:24.102820661Z
+    description: 'Gogs: Go Git Service'
+    digest: 46f1e282bae4d7b585a6398337635a59eeb2f8b059384f1e6f27df2ad7728764
+    home: https://gogs.io/
+    icon: https://gogs.io/img/favicon.ico
+    keywords:
+    - git
+    maintainers:
+    - name: obeyler
+    - name: poblin-orange
+    name: gogs
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/gogs-0.7.9.tgz
+    version: 0.7.9
+  - apiVersion: v1
+    appVersion: 0.11.86
+    created: 2019-05-15T15:27:47.31973591Z
     description: 'Gogs: Go Git Service'
     digest: 210319198ea849e4af63e8a4be7215abb7bd30607d9ea19daff173032907b913
     home: https://gogs.io/
@@ -6262,7 +7003,7 @@ entries:
   goldfish:
   - apiVersion: v1
     appVersion: 0.9.0
-    created: 2019-04-05T12:27:12.907311303Z
+    created: 2019-07-08T14:58:51.57133613Z
     description: A Helm chart for Goldfish - Vault UI
     digest: 4cb08834971b7188ba5233af08bb73152a7b53045892b9d07d6c0f158fd6748f
     home: https://vault-ui.io
@@ -6389,8 +7130,86 @@ entries:
     - http://storage.googleapis.com/kubernetes-charts-incubator/grafana-0.1.0.tgz
     version: 0.1.0
   haproxy-ingress:
+  - apiVersion: v1
+    appVersion: 0.7.1
+    created: 2019-07-08T14:58:51.572781002Z
+    description: Ingress controller implementation for haproxy loadbalancer.
+    digest: 930ac7782d2a9cb692432afd69df093a6ac63e1c51b1d5f18ea1db52eb66cbe0
+    engine: gotpl
+    home: https://github.com/jcmoraisjr/haproxy-ingress
+    icon: http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png
+    keywords:
+    - ingress
+    - haproxy
+    maintainers:
+    - email: xianlubird@gmail.com
+      name: xianlubird
+    name: haproxy-ingress
+    sources:
+    - https://github.com/jcmoraisjr/haproxy-ingress
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/haproxy-ingress-0.0.14.tgz
+    version: 0.0.14
+  - apiVersion: v1
+    appVersion: 0.7.1
+    created: 2019-05-24T02:27:23.960538622Z
+    description: Ingress controller implementation for haproxy loadbalancer.
+    digest: 5e5709972c899a99cc0fa8d297250aec0ce441fcc084737fdb6a80b2de37b8c7
+    engine: gotpl
+    home: https://github.com/jcmoraisjr/haproxy-ingress
+    icon: http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png
+    keywords:
+    - ingress
+    - haproxy
+    maintainers:
+    - email: xianlubird@gmail.com
+      name: xianlubird
+    name: haproxy-ingress
+    sources:
+    - https://github.com/jcmoraisjr/haproxy-ingress
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/haproxy-ingress-0.0.13.tgz
+    version: 0.0.13
+  - appVersion: 0.7.1
+    created: 2019-05-15T11:57:30.196716134Z
+    description: Ingress controller implementation for haproxy loadbalancer.
+    digest: 0850053ea27d1c1154efadd4a8db7cd43d2a3efa7cc98c5582c2e86eb3fd4ed3
+    engine: gotpl
+    home: https://github.com/jcmoraisjr/haproxy-ingress
+    icon: http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png
+    keywords:
+    - ingress
+    - haproxy
+    maintainers:
+    - email: xianlubird@gmail.com
+      name: xianlubird
+    name: haproxy-ingress
+    sources:
+    - https://github.com/jcmoraisjr/haproxy-ingress
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/haproxy-ingress-0.0.12.tgz
+    version: 0.0.12
+  - appVersion: 0.7.1
+    created: 2019-04-24T08:57:14.084873655Z
+    description: Ingress controller implementation for haproxy loadbalancer.
+    digest: 41c264852fc21c322d15245d542fef4e6b33bfe6f5c59aada80c255c2f5c209a
+    engine: gotpl
+    home: https://github.com/jcmoraisjr/haproxy-ingress
+    icon: http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png
+    keywords:
+    - ingress
+    - haproxy
+    maintainers:
+    - email: xianlubird@gmail.com
+      name: xianlubird
+    name: haproxy-ingress
+    sources:
+    - https://github.com/jcmoraisjr/haproxy-ingress
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/haproxy-ingress-0.0.11.tgz
+    version: 0.0.11
   - appVersion: 0.7.0
-    created: 2019-04-05T12:27:12.908325868Z
+    created: 2019-04-11T01:58:03.965213388Z
     description: Ingress controller implementation for haproxy loadbalancer.
     digest: fc3b93edfe0d4fddffd869f478028cecdeb1233a4264809bc366fd94f1e14c1c
     engine: gotpl
@@ -6582,7 +7401,7 @@ entries:
   hoverfly:
   - apiVersion: v1
     appVersion: 1.0.0-rc.2
-    created: 2019-04-05T12:27:12.908783719Z
+    created: 2019-07-08T14:58:51.57306382Z
     description: Hoverfly is a lightweight, open source API simulation tool. Using
       Hoverfly, you can create realistic simulations of the APIs your application
       depends on.
@@ -6606,7 +7425,7 @@ entries:
   istio:
   - apiVersion: v1
     appVersion: 0.2.12
-    created: 2019-04-05T12:27:12.909857341Z
+    created: 2019-07-08T14:58:51.573801334Z
     deprecated: true
     description: Istio Helm chart for Kubernetes
     digest: 0800bebf43a3bb8a36f4d4566d5ef844ca996788923b8d1da38c8716a90810b2
@@ -6896,10 +7715,247 @@ entries:
     version: 0.1.6-chart1
   jaeger:
   - apiVersion: v1
-    appVersion: 1.10.0
-    created: 2019-04-05T12:27:12.912763282Z
+    appVersion: 1.13.1
+    created: 2019-07-08T14:58:51.57608708Z
     description: A Jaeger Helm chart for Kubernetes
-    digest: 5fdb88aea2df9826e49cace1774bd79e018de26c692fde77fb4464b8b5a33137
+    digest: 39317d84ce3dd54ebd5610049576713dfcf682fa1406d8779ab9c849289893ac
+    home: https://jaegertracing.io
+    icon: https://camo.githubusercontent.com/afa87494e0753b4b1f5719a2f35aa5263859dffb/687474703a2f2f6a61656765722e72656164746865646f63732e696f2f656e2f6c61746573742f696d616765732f6a61656765722d766563746f722e737667
+    keywords:
+    - jaeger
+    - opentracing
+    - tracing
+    - instrumentation
+    maintainers:
+    - email: david.vonthenen@dell.com
+      name: dvonthenen
+    - email: michael.lorant@fairfaxmedia.com.au
+      name: mikelorant
+    - email: naseem@transit.app
+      name: naseemkullah
+    - email: pavel.nikolov@fairfaxmedia.com.au
+      name: pavelnikolov
+    name: jaeger
+    sources:
+    - https://hub.docker.com/u/jaegertracing/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/jaeger-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v1
+    appVersion: 1.12.0
+    created: 2019-06-30T17:28:51.899922817Z
+    description: A Jaeger Helm chart for Kubernetes
+    digest: 9d6ac932a1f1a16344d71df29c5b2be48ae86ca49ef0d7b37f2650aea5c513cd
+    home: https://jaegertracing.io
+    icon: https://camo.githubusercontent.com/afa87494e0753b4b1f5719a2f35aa5263859dffb/687474703a2f2f6a61656765722e72656164746865646f63732e696f2f656e2f6c61746573742f696d616765732f6a61656765722d766563746f722e737667
+    keywords:
+    - jaeger
+    - opentracing
+    - tracing
+    - instrumentation
+    maintainers:
+    - email: david.vonthenen@dell.com
+      name: dvonthenen
+    - email: michael.lorant@fairfaxmedia.com.au
+      name: mikelorant
+    - email: naseem@transit.app
+      name: naseemkullah
+    - email: pavel.nikolov@fairfaxmedia.com.au
+      name: pavelnikolov
+    name: jaeger
+    sources:
+    - https://hub.docker.com/u/jaegertracing/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/jaeger-0.11.1.tgz
+    version: 0.11.1
+  - apiVersion: v1
+    appVersion: 1.12.0
+    created: 2019-06-27T21:58:36.286895993Z
+    description: A Jaeger Helm chart for Kubernetes
+    digest: d06e88eb903c7e9eea0d42b2cb83b11272330d6eaf1dd5661c4eca5360d95a1b
+    home: https://jaegertracing.io
+    icon: https://camo.githubusercontent.com/afa87494e0753b4b1f5719a2f35aa5263859dffb/687474703a2f2f6a61656765722e72656164746865646f63732e696f2f656e2f6c61746573742f696d616765732f6a61656765722d766563746f722e737667
+    keywords:
+    - jaeger
+    - opentracing
+    - tracing
+    - instrumentation
+    maintainers:
+    - email: david.vonthenen@dell.com
+      name: dvonthenen
+    - email: michael.lorant@fairfaxmedia.com.au
+      name: mikelorant
+    - email: naseem@transit.app
+      name: naseemkullah
+    - email: pavel.nikolov@fairfaxmedia.com.au
+      name: pavelnikolov
+    name: jaeger
+    sources:
+    - https://hub.docker.com/u/jaegertracing/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/jaeger-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v1
+    appVersion: 1.12.0
+    created: 2019-06-27T08:58:21.914218986Z
+    description: A Jaeger Helm chart for Kubernetes
+    digest: 9a2819e1a6b0fff86d667bfb7b84b6bd6a2fb1c9c8f84fd6005b659bd99dc9d8
+    home: https://jaegertracing.io
+    icon: https://camo.githubusercontent.com/afa87494e0753b4b1f5719a2f35aa5263859dffb/687474703a2f2f6a61656765722e72656164746865646f63732e696f2f656e2f6c61746573742f696d616765732f6a61656765722d766563746f722e737667
+    keywords:
+    - jaeger
+    - opentracing
+    - tracing
+    - instrumentation
+    maintainers:
+    - email: david.vonthenen@dell.com
+      name: dvonthenen
+    - email: michael.lorant@fairfaxmedia.com.au
+      name: mikelorant
+    - email: naseem@transit.app
+      name: naseemkullah
+    - email: pavel.nikolov@fairfaxmedia.com.au
+      name: pavelnikolov
+    name: jaeger
+    sources:
+    - https://hub.docker.com/u/jaegertracing/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/jaeger-0.10.5.tgz
+    version: 0.10.5
+  - apiVersion: v1
+    appVersion: 1.12.0
+    created: 2019-06-26T14:58:35.332108945Z
+    description: A Jaeger Helm chart for Kubernetes
+    digest: af4888dadf00cdfcc04d3834c5170ae585e087caa0d1eeaa1b1ad68d145c8ce4
+    home: https://jaegertracing.io
+    icon: https://camo.githubusercontent.com/afa87494e0753b4b1f5719a2f35aa5263859dffb/687474703a2f2f6a61656765722e72656164746865646f63732e696f2f656e2f6c61746573742f696d616765732f6a61656765722d766563746f722e737667
+    keywords:
+    - jaeger
+    - opentracing
+    - tracing
+    - instrumentation
+    maintainers:
+    - email: david.vonthenen@dell.com
+      name: dvonthenen
+    - email: michael.lorant@fairfaxmedia.com.au
+      name: mikelorant
+    - email: naseem@transit.app
+      name: naseemkullah
+    - email: pavel.nikolov@fairfaxmedia.com.au
+      name: pavelnikolov
+    name: jaeger
+    sources:
+    - https://hub.docker.com/u/jaegertracing/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/jaeger-0.10.4.tgz
+    version: 0.10.4
+  - apiVersion: v1
+    appVersion: 1.12.0
+    created: 2019-06-23T06:29:38.290846952Z
+    description: A Jaeger Helm chart for Kubernetes
+    digest: 591de4f70eb757c4f04a62d43c65777fc10e2837b26d20faf0b9f661ab24013e
+    home: https://jaegertracing.io
+    icon: https://camo.githubusercontent.com/afa87494e0753b4b1f5719a2f35aa5263859dffb/687474703a2f2f6a61656765722e72656164746865646f63732e696f2f656e2f6c61746573742f696d616765732f6a61656765722d766563746f722e737667
+    keywords:
+    - jaeger
+    - opentracing
+    - tracing
+    - instrumentation
+    maintainers:
+    - email: david.vonthenen@dell.com
+      name: dvonthenen
+    - email: michael.lorant@fairfaxmedia.com.au
+      name: mikelorant
+    - email: naseem@transit.app
+      name: naseemkullah
+    - email: pavel.nikolov@fairfaxmedia.com.au
+      name: pavelnikolov
+    name: jaeger
+    sources:
+    - https://hub.docker.com/u/jaegertracing/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/jaeger-0.10.3.tgz
+    version: 0.10.3
+  - apiVersion: v1
+    appVersion: 1.11.0
+    created: 2019-05-30T10:57:53.456714932Z
+    description: A Jaeger Helm chart for Kubernetes
+    digest: c991e640b21324189157b610eed687ea9e3004a7444dc9bdc1f1eebb3c3cd83c
+    home: https://jaegertracing.io
+    icon: https://camo.githubusercontent.com/afa87494e0753b4b1f5719a2f35aa5263859dffb/687474703a2f2f6a61656765722e72656164746865646f63732e696f2f656e2f6c61746573742f696d616765732f6a61656765722d766563746f722e737667
+    keywords:
+    - jaeger
+    - opentracing
+    - tracing
+    - instrumentation
+    maintainers:
+    - email: david.vonthenen@dell.com
+      name: dvonthenen
+    - email: michael.lorant@fairfaxmedia.com.au
+      name: mikelorant
+    - email: pavel.nikolov@fairfaxmedia.com.au
+      name: pavelnikolov
+    name: jaeger
+    sources:
+    - https://hub.docker.com/u/jaegertracing/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/jaeger-0.10.2.tgz
+    version: 0.10.2
+  - apiVersion: v1
+    appVersion: 1.11.0
+    created: 2019-05-06T15:27:54.465701092Z
+    description: A Jaeger Helm chart for Kubernetes
+    digest: ff7b551f6c0ff3227a01257d638d05604ed977abbf59eccc798b8a4fec405b6b
+    home: https://jaegertracing.io
+    icon: https://camo.githubusercontent.com/afa87494e0753b4b1f5719a2f35aa5263859dffb/687474703a2f2f6a61656765722e72656164746865646f63732e696f2f656e2f6c61746573742f696d616765732f6a61656765722d766563746f722e737667
+    keywords:
+    - jaeger
+    - opentracing
+    - tracing
+    - instrumentation
+    maintainers:
+    - email: david.vonthenen@dell.com
+      name: dvonthenen
+    - email: michael.lorant@fairfaxmedia.com.au
+      name: mikelorant
+    - email: pavel.nikolov@fairfaxmedia.com.au
+      name: pavelnikolov
+    name: jaeger
+    sources:
+    - https://hub.docker.com/u/jaegertracing/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/jaeger-0.10.1.tgz
+    version: 0.10.1
+  - apiVersion: v1
+    appVersion: 1.11.0
+    created: 2019-04-29T17:28:42.904016817Z
+    description: A Jaeger Helm chart for Kubernetes
+    digest: 3ccecb3bfd73e8588d9637ce6233533cc11ebd79ec7b411be7e4ba24d5dfda2a
+    home: https://jaegertracing.io
+    icon: https://camo.githubusercontent.com/afa87494e0753b4b1f5719a2f35aa5263859dffb/687474703a2f2f6a61656765722e72656164746865646f63732e696f2f656e2f6c61746573742f696d616765732f6a61656765722d766563746f722e737667
+    keywords:
+    - jaeger
+    - opentracing
+    - tracing
+    - instrumentation
+    maintainers:
+    - email: david.vonthenen@dell.com
+      name: dvonthenen
+    - email: michael.lorant@fairfaxmedia.com.au
+      name: mikelorant
+    - email: pavel.nikolov@fairfaxmedia.com.au
+      name: pavelnikolov
+    name: jaeger
+    sources:
+    - https://hub.docker.com/u/jaegertracing/
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/jaeger-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v1
+    appVersion: 1.10.0
+    created: 2019-04-22T10:27:37.359432398Z
+    description: A Jaeger Helm chart for Kubernetes
+    digest: 64fcd86bfdfb2f253f93dcd2c6327c92e3103f675dacb2d93bffe0198aceb1b1
     home: https://jaegertracing.io
     icon: https://camo.githubusercontent.com/afa87494e0753b4b1f5719a2f35aa5263859dffb/687474703a2f2f6a61656765722e72656164746865646f63732e696f2f656e2f6c61746573742f696d616765732f6a61656765722d766563746f722e737667
     keywords:
@@ -7762,7 +8818,7 @@ entries:
   jenkins-operator:
   - apiVersion: v1
     appVersion: 0.1.12
-    created: 2019-04-05T12:27:12.913427633Z
+    created: 2019-07-08T14:58:51.57649153Z
     description: A Helm chart for Kubernetes Jenkins Operator
     digest: f66f334d34f16c80ec8b191bc1ae73cbf0911868b640af187f2c511441cb27a7
     home: https://github.com/samsung-cnct/jenkins-operator
@@ -7783,7 +8839,455 @@ entries:
   kafka:
   - apiVersion: v1
     appVersion: 5.0.1
-    created: 2019-04-05T12:27:12.915611473Z
+    created: 2019-07-08T14:58:51.577865326Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 1896830dffa9e891dab7d9cc6f2511488e8021059098799de2798b25c06bf10d
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.16.2.tgz
+    version: 0.16.2
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-06-26T12:58:13.716868744Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 886c837fe1355cb0c19a0ccbc1d95955a1bfed6f5062471d1cdb2f32ff5baba7
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.16.1.tgz
+    version: 0.16.1
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-06-24T16:29:03.675490191Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: e593b8b09b9c1ed31d8601402f4f538b2bfdb76ca97ddd7b515b07a384091dcb
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.16.0.tgz
+    version: 0.16.0
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-06-19T13:57:32.753805335Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: c880446e451f3a0ff025d6904d93448f49c34beeb821e85777679de4ae1b0037
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.15.8.tgz
+    version: 0.15.8
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-06-18T18:58:06.917003676Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 08eab7e2ec509b1a91fdf1fe006eacfed98b5cc353506575b03e1552f6d7f1b3
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.15.7.tgz
+    version: 0.15.7
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-06-18T12:58:20.072151219Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 6d45bad8360e645dc41185ba516bc871d156b54dfa897db58873e3f0843f3558
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.15.6.tgz
+    version: 0.15.6
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-06-05T16:57:52.789651748Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: c1f618120c943939555ac31a7c31a554a7739f60bf4572a5a6d11b5b644db2d7
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.15.5.tgz
+    version: 0.15.5
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-05-29T19:28:12.19058943Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 5805117bced47b918dd4438046a160d92f815e4cb2da8f84ea9c589d139399a5
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.15.4.tgz
+    version: 0.15.4
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-05-23T20:58:34.713722911Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 376f5714c4a237a3426f7af4fab12e9f2bf92a30f64816c33d33b9f0a355557c
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.15.3.tgz
+    version: 0.15.3
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-05-17T03:57:22.966959438Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 2f05ef3118ba0860caefe7b5c7e54a13f647227f137d4bf05e399e54d65305e9
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.15.2.tgz
+    version: 0.15.2
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-05-08T15:27:53.812032092Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 828eac14d5e643e81e67a543abdf31f992014c1758976b19e284380d841ac9a9
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.15.1.tgz
+    version: 0.15.1
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-05-08T01:28:34.448089632Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 0ab8410e0354c64c24e6825830cc1b459c39291def8b4f440c8f1653bfbc5b70
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-05-06T21:29:17.836735874Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 86fc35a333cc34c6a31e1248ef56b3d4b84408d183d01e58d6386e7b415c713c
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.14.6.tgz
+    version: 0.14.6
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-04-22T13:00:50.292330449Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 5a15c6093ff412680855446f423df0d9214da8c5f50a60b6d37ff654737f5449
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.14.5.tgz
+    version: 0.14.5
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-04-15T20:57:14.58164479Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: c6c70963f2ce5d815b7be1ce1f30a7255f1210b82e3767fbb4506178cd911f69
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.14.4.tgz
+    version: 0.14.4
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-04-08T16:57:21.014133822Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 2a47a72feb7b884d6258599d6a1498b9169ae226352034c2d1a30799065257ab
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kafka-0.14.3.tgz
+    version: 0.14.3
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-04-08T11:57:01.541285713Z
     description: Apache Kafka is publish-subscribe messaging rethought as a distributed
       commit log.
     digest: 37fb521faad422fb4fa711e7f60eac8fe5fd5594081ff2a674c9717fb3c5465d
@@ -9976,7 +11480,7 @@ entries:
     version: 0.1.0
   keycloak:
   - appVersion: 3.4.3.Final
-    created: 2019-04-05T12:27:12.916515355Z
+    created: 2019-07-08T14:58:51.578761122Z
     deprecated: true
     description: Open Source Identity and Access Management For Modern Applications
       and Services
@@ -10173,7 +11677,7 @@ entries:
   keycloak-proxy:
   - apiVersion: v1
     appVersion: 3.4.2.Final
-    created: 2019-04-05T12:27:12.916911176Z
+    created: 2019-07-08T14:58:51.579121569Z
     description: Keycloak Proxy supports Single Sign-On with Keycloak
     digest: bef39f588a3e1c6ec1baee4f6645d71f4339a61d7a16d758a0079f00c1f18930
     home: https://www.keycloak.org/docs/3.3/server_installation/topics/proxy.html
@@ -10194,7 +11698,7 @@ entries:
   kube-janitor:
   - apiVersion: v1
     appVersion: v0.1.0
-    created: 2019-04-05T12:27:12.917137251Z
+    created: 2019-07-08T14:58:51.579357793Z
     description: A Helm chart for running kube-janitor
     digest: 5baa22973ee9ab6d0bce555c6600bc0dc14c07170d6aab1e0d07f80dbacdb8d3
     home: https://github.com/themagicalkarp/kube-janitor
@@ -10229,8 +11733,21 @@ entries:
     - https://kubernetes-charts-incubator.storage.googleapis.com/kube-ops-view-0.1.0.tgz
     version: 0.1.0
   kube-registry-proxy:
+  - apiVersion: v1
+    appVersion: "0.4"
+    created: 2019-07-08T14:58:51.579553999Z
+    description: Installs the kubernetes-registry-proxy cluster addon.
+    digest: a27887be8958f66bdc31d50ace8a3ef6dab831aa3e97d06435467c0e9e5fbece
+    home: https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/registry
+    maintainers:
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    name: kube-registry-proxy
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kube-registry-proxy-0.3.1.tgz
+    version: 0.3.1
   - appVersion: "0.4"
-    created: 2019-04-05T12:27:12.917306653Z
+    created: 2019-05-22T13:27:42.916278965Z
     description: Installs the kubernetes-registry-proxy cluster addon.
     digest: ad76dd99453aa91323b2d7c1ab5d85caff88d3f11cf2d1fc7ae3b1367ef205d1
     home: https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/registry
@@ -10385,7 +11902,79 @@ entries:
   kubeless:
   - apiVersion: v1
     appVersion: v1.0.3
-    created: 2019-04-05T12:27:12.917881439Z
+    created: 2019-07-08T14:58:51.580265036Z
+    description: Kubeless is a Kubernetes-native serverless framework. It runs on
+      top of your Kubernetes cluster and allows you to deploy small unit of code without
+      having to build container images.
+    digest: ec75c08b784e3a2e1a52b3cd240eb659cf2c9698b6ee974f9a3b5029fa66a908
+    engine: gotpl
+    home: http://kubeless.io/
+    icon: https://cloud.githubusercontent.com/assets/4056725/25480209/1d5bf83c-2b48-11e7-8db8-bcd650f31297.png
+    keywords:
+    - kubeless
+    - serverless
+    - function-as-a-service
+    - faas
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: kubeless
+    sources:
+    - https://github.com/kubeless/kubeless
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kubeless-2.0.6.tgz
+    version: 2.0.6
+  - apiVersion: v1
+    appVersion: v1.0.3
+    created: 2019-06-17T14:29:25.839606852Z
+    description: Kubeless is a Kubernetes-native serverless framework. It runs on
+      top of your Kubernetes cluster and allows you to deploy small unit of code without
+      having to build container images.
+    digest: 69d93ad60cb1cc482414587ebc3c09dcb4a428bd9fed8df9ef2abd3cee56ea2e
+    engine: gotpl
+    home: http://kubeless.io/
+    icon: https://cloud.githubusercontent.com/assets/4056725/25480209/1d5bf83c-2b48-11e7-8db8-bcd650f31297.png
+    keywords:
+    - kubeless
+    - serverless
+    - function-as-a-service
+    - faas
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: kubeless
+    sources:
+    - https://github.com/kubeless/kubeless
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kubeless-2.0.5.tgz
+    version: 2.0.5
+  - apiVersion: v1
+    appVersion: v1.0.3
+    created: 2019-05-09T11:27:25.431545315Z
+    description: Kubeless is a Kubernetes-native serverless framework. It runs on
+      top of your Kubernetes cluster and allows you to deploy small unit of code without
+      having to build container images.
+    digest: a47dfd76a9cb0050be60681158332576a7a1912c1edcf483b1043c47340f8bad
+    engine: gotpl
+    home: http://kubeless.io/
+    icon: https://cloud.githubusercontent.com/assets/4056725/25480209/1d5bf83c-2b48-11e7-8db8-bcd650f31297.png
+    keywords:
+    - kubeless
+    - serverless
+    - function-as-a-service
+    - faas
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: kubeless
+    sources:
+    - https://github.com/kubeless/kubeless
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/kubeless-2.0.4.tgz
+    version: 2.0.4
+  - apiVersion: v1
+    appVersion: v1.0.3
+    created: 2019-05-07T06:57:45.13432317Z
     description: Kubeless is a Kubernetes-native serverless framework. It runs on
       top of your Kubernetes cluster and allows you to deploy small unit of code without
       having to build container images.
@@ -10746,7 +12335,7 @@ entries:
   kubernetes-vault:
   - apiVersion: v1
     appVersion: 0.5.2
-    created: 2019-04-05T12:27:12.918157657Z
+    created: 2019-07-08T14:58:51.580601507Z
     description: The Kubernetes-Vault project allows pods to automatically receive
       a Vault token using Vaults AppRole auth backend.
     digest: 70aee2f56db13b612cda7f41c0c9f94ec8d148106e418c71fecc0d8252fe8f5c
@@ -10794,7 +12383,7 @@ entries:
     version: 0.1.0
   kubewatch:
   - appVersion: v0.0.3
-    created: 2019-04-05T12:27:12.918449793Z
+    created: 2019-07-08T14:58:51.580896197Z
     deprecated: true
     description: DEPRECATED Kubewatch notifies your slack rooms when changes to your
       cluster occur
@@ -10866,7 +12455,7 @@ entries:
   logstash:
   - apiVersion: v1
     appVersion: 6.4.2
-    created: 2019-04-05T12:27:12.918927426Z
+    created: 2019-07-08T14:58:51.581315597Z
     deprecated: true
     description: DEPRECATED Logstash is an open source, server-side data processing
       pipeline
@@ -11418,8 +13007,91 @@ entries:
     - https://kubernetes-charts-incubator.storage.googleapis.com/mongodb-replicaset-0.1.1.tgz
     version: 0.1.1
   mysqlha:
+  - apiVersion: v1
+    appVersion: 5.7.13
+    created: 2019-07-08T14:58:51.581739716Z
+    description: MySQL cluster with a single master and zero or more slave replicas
+    digest: e259514deb2bdfb64451fda39bb4a1c5b69e10f8cf4dd03a156d83a1079faa7d
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    maintainers:
+    - email: helmchart-mysql@jasonpoon.ca
+      name: jpoon
+    - email: jon.bitbucket@livewire-uk.co.uk
+      name: jonhoare
+    - email: urakiny@gmail.com
+      name: aisuko
+    name: mysqlha
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/mysqlha-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v1
+    appVersion: 5.7.13
+    created: 2019-06-27T22:28:07.655424843Z
+    description: MySQL cluster with a single master and zero or more slave replicas
+    digest: b64f3020f835e8766873324fb7229b1c2a8ccdd3ca14629a4cbea4c3c8aef677
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    maintainers:
+    - email: helmchart-mysql@jasonpoon.ca
+      name: jpoon
+    - email: jon.bitbucket@livewire-uk.co.uk
+      name: jonhoare
+    - email: urakiny@gmail.com
+      name: aisuko
+    name: mysqlha
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/mysqlha-0.5.2.tgz
+    version: 0.5.2
+  - apiVersion: v1
+    appVersion: 5.7.13
+    created: 2019-06-18T04:58:49.679550823Z
+    description: MySQL cluster with a single master and zero or more slave replicas
+    digest: e94843245cab819abd79fd824be71bec870cf44f1361472b478d3ae1e40a23e7
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    maintainers:
+    - email: jason.poon@microsoft.com
+      name: jpoon
+    - email: jon.bitbucket@livewire-uk.co.uk
+      name: jonhoare
+    name: mysqlha
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/mysqlha-0.5.1.tgz
+    version: 0.5.1
   - appVersion: 5.7.13
-    created: 2019-04-05T12:27:12.919289654Z
+    created: 2019-05-15T11:57:30.206005818Z
+    description: MySQL cluster with a single master and zero or more slave replicas
+    digest: 415fcb25f4af0513cfe4bb84ef8fa08c48e0e0aadf37be751434105f7015f321
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    maintainers:
+    - email: jason.poon@microsoft.com
+      name: jpoon
+    - email: jon.bitbucket@livewire-uk.co.uk
+      name: jonhoare
+    name: mysqlha
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/mysqlha-0.5.0.tgz
+    version: 0.5.0
+  - appVersion: 5.7.13
+    created: 2019-04-29T21:57:49.068432479Z
     description: MySQL cluster with a single master and zero or more slave replicas
     digest: 214e48c1d5dd1d18701fe1efc5138fd34d54ea18fc7dac4643a278ccc83d72b6
     home: https://www.mysql.com/
@@ -11621,7 +13293,7 @@ entries:
     version: 0.1.0
   oauth-proxy:
   - appVersion: "2.2"
-    created: 2019-04-05T12:27:12.919575876Z
+    created: 2019-07-08T14:58:51.582059801Z
     deprecated: true
     description: A reverse proxy that provides authentication with Google, Github
       or other providers
@@ -11766,7 +13438,7 @@ entries:
   orientdb:
   - apiVersion: v1
     appVersion: 3.0.13
-    created: 2019-04-05T12:27:12.919948403Z
+    created: 2019-07-08T14:58:51.582451449Z
     description: A Helm chart for Distributed OrientDB
     digest: eb26ae8bc7e2dd8e8b1f9270531c11b9be1defcc1edccbb151fa380f80f1fe90
     home: https://orientdb.com
@@ -11782,8 +13454,60 @@ entries:
     - https://kubernetes-charts-incubator.storage.googleapis.com/orientdb-0.1.2.tgz
     version: 0.1.2
   patroni:
+  - apiVersion: v1
+    appVersion: 1.4-p16
+    created: 2019-07-08T14:58:51.584612595Z
+    description: 'Highly available elephant herd: HA PostgreSQL cluster.'
+    digest: 61882d02b4f1c2cd40d6d7bbb2b418348ba5138f332eb486bcb91bc4354ce042
+    home: https://github.com/zalando/patroni
+    maintainers:
+    - email: team-acid@zalando.de
+      name: alexeyklyukin
+    - email: team-teapot@zalando.de
+      name: linki
+    name: patroni
+    sources:
+    - https://github.com/zalando/patroni
+    - https://github.com/zalando/spilo
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/patroni-0.12.1.tgz
+    version: 0.12.1
   - appVersion: 1.4-p16
-    created: 2019-04-05T12:27:12.921031414Z
+    created: 2019-05-15T11:57:30.207746283Z
+    description: 'Highly available elephant herd: HA PostgreSQL cluster.'
+    digest: 84e0be53703f44d6c12c508d81ba4e12a3ddeddca687269a670a9491a828634e
+    home: https://github.com/zalando/patroni
+    maintainers:
+    - email: team-acid@zalando.de
+      name: alexeyklyukin
+    - email: team-teapot@zalando.de
+      name: linki
+    name: patroni
+    sources:
+    - https://github.com/zalando/patroni
+    - https://github.com/zalando/spilo
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/patroni-0.12.0.tgz
+    version: 0.12.0
+  - appVersion: 1.4-p16
+    created: 2019-05-06T16:58:04.913041258Z
+    description: 'Highly available elephant herd: HA PostgreSQL cluster.'
+    digest: 419e31fd3899c62b3b25182b5136a2a3c25fdd2d5430ca919dfc652f80bb8764
+    home: https://github.com/zalando/patroni
+    maintainers:
+    - email: team-acid@zalando.de
+      name: alexeyklyukin
+    - email: team-teapot@zalando.de
+      name: linki
+    name: patroni
+    sources:
+    - https://github.com/zalando/patroni
+    - https://github.com/zalando/spilo
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/patroni-0.11.1.tgz
+    version: 0.11.1
+  - appVersion: 1.4-p16
+    created: 2019-04-22T10:00:19.455602783Z
     description: 'Highly available elephant herd: HA PostgreSQL cluster.'
     digest: ff7d188c92b5c9728d3223de93ebaf4a5fdb9f89b6b2ab2bb4b3681213d3aef4
     home: https://github.com/zalando/patroni
@@ -12208,7 +13932,7 @@ entries:
   puppet-forge:
   - apiVersion: v1
     appVersion: 1.10.0
-    created: 2019-04-05T12:27:12.921371134Z
+    created: 2019-07-08T14:58:51.584944969Z
     description: Distribute locally developed Puppet modules and proxy to the official
       Puppet Forge server
     digest: d46b6023323939d34904571e05d994b1134cc0ece72026f9b0bedbb9159d4dd3
@@ -12243,8 +13967,55 @@ entries:
     - https://kubernetes-charts-incubator.storage.googleapis.com/puppet-forge-0.1.7.tgz
     version: 0.1.7
   raw:
+  - apiVersion: v1
+    appVersion: 0.2.3
+    created: 2019-07-08T14:58:51.585196848Z
+    description: A place for all the Kubernetes resources which don't already have
+      a home.
+    digest: b441b2f3b445f7e352ba56714d05fed0f53adea458dbe01fe1cfe1f16d4092a1
+    home: https://github.com/helm/charts/blob/master/incubator/raw
+    maintainers:
+    - email: josdotso@cisco.com
+      name: josdotso
+    - email: ykuoka@gmail.com
+      name: mumoshu
+    name: raw
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/raw-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v1
+    appVersion: 0.2.1
+    created: 2019-05-20T14:58:02.571782033Z
+    description: A place for all the Kubernetes resources which don't already have
+      a home.
+    digest: b9347ef20ef7021237dbb4c33e887b527cf066ec845227a47199cf30a14c8bab
+    home: https://github.com/helm/charts/blob/master/incubator/raw
+    maintainers:
+    - email: josdotso@cisco.com
+      name: josdotso
+    - email: ykuoka@gmail.com
+      name: mumoshu
+    name: raw
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/raw-0.2.2.tgz
+    version: 0.2.2
+  - appVersion: 0.2.1
+    created: 2019-05-15T12:28:14.522434234Z
+    description: A place for all the Kubernetes resources which don't already have
+      a home.
+    digest: abadc5ffb0e1b84ad74d8ebade1cdf617ca0162c1abe21026848903b9d49e252
+    home: https://github.com/helm/charts/blob/master/incubator/raw
+    maintainers:
+    - email: josdotso@cisco.com
+      name: josdotso
+    - email: ykuoka@gmail.com
+      name: mumoshu
+    name: raw
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/raw-0.2.1.tgz
+    version: 0.2.1
   - appVersion: 0.2.0
-    created: 2019-04-05T12:27:12.921623453Z
+    created: 2019-05-13T13:27:41.806151395Z
     description: A place for all the Kubernetes resources which don't already have
       a home.
     digest: 6c79e6d69aa8110f2fa80e664f7bdfd5fd6147315e83b84eb2f11c74ccbb7b12
@@ -12274,7 +14045,7 @@ entries:
   redis-cache:
   - apiVersion: v1
     appVersion: 4.0.12-alpine
-    created: 2019-04-05T12:27:12.921928762Z
+    created: 2019-07-08T14:58:51.585499647Z
     description: A pure in-memory redis cache, using statefulset and redis-sentinel-micro
     digest: 8f3694d6385df8ddc8f589ca4770204c06b85e94ffa3734d1977654f9c76ed8b
     home: https://redis.io/
@@ -12405,7 +14176,7 @@ entries:
   riemann:
   - apiVersion: v1
     appVersion: 0.2.14
-    created: 2019-04-05T12:27:12.922189589Z
+    created: 2019-07-08T14:58:51.58576101Z
     description: Riemann monitors distributed systems. Riemann aggregates events from
       your servers and applications with a powerful stream processing language.
     digest: 20c6432b366d2408d4c4058aee9bcc8708fd17b439eca9d768349c3603cb5aab
@@ -12466,10 +14237,109 @@ entries:
     urls:
     - https://kubernetes-charts-incubator.storage.googleapis.com/riemann-0.1.0.tgz
     version: 0.1.0
+  rundeck:
+  - apiVersion: v1
+    appVersion: 3.0.16
+    created: 2019-07-08T14:58:51.586087373Z
+    description: A Rundeck chart for Kubernetes
+    digest: f3d91b4973d823725217792e8c42b76ec8dd1ece398342268b78defe7135b9cc
+    home: https://github.com/rundeck/rundeck
+    keywords:
+    - rundeck
+    - jobs
+    - automation
+    - operations
+    maintainers:
+    - email: hello@dwardu.com
+      name: dwardu89
+    name: rundeck
+    sources:
+    - https://github.com/rundeck/rundeck
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/rundeck-0.1.0.tgz
+    version: 0.1.0
   schema-registry:
   - apiVersion: v1
     appVersion: 5.0.1
-    created: 2019-04-05T12:27:12.923917582Z
+    created: 2019-07-08T14:58:51.58778023Z
+    description: Schema Registry provides a serving layer for your metadata. It provides
+      a RESTful interface for storing and retrieving Avro schemas. It stores a versioned
+      history of all schemas, provides multiple compatibility settings and allows
+      evolution of schemas according to the configured compatibility setting. It provides
+      serializers that plug into Kafka clients that handle schema storage and retrieval
+      for Kafka messages that are sent in the Avro format.
+    digest: 4355061eae1ec32a531388019a6d8bc52d41525ef5160eb8ccc54ed3263be6b4
+    home: https://docs.confluent.io/current/schema-registry/docs/index.html
+    icon: https://www.confluent.io/wp-content/themes/confluent/assets/images/confluent-logo-300.png
+    keywords:
+    - confluent
+    - kafka
+    - schema-registry
+    maintainers:
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: schema-registry
+    sources:
+    - https://github.com/confluentinc/schema-registry
+    - https://github.com/confluentinc/cp-docker-images
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/schema-registry-1.1.5.tgz
+    version: 1.1.5
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-06-11T11:57:10.587052202Z
+    description: Schema Registry provides a serving layer for your metadata. It provides
+      a RESTful interface for storing and retrieving Avro schemas. It stores a versioned
+      history of all schemas, provides multiple compatibility settings and allows
+      evolution of schemas according to the configured compatibility setting. It provides
+      serializers that plug into Kafka clients that handle schema storage and retrieval
+      for Kafka messages that are sent in the Avro format.
+    digest: 0d9b495cfabae24dd2359d8a34744b4847f961dd0618d706589d7eb44a32d284
+    home: https://docs.confluent.io/current/schema-registry/docs/index.html
+    icon: https://www.confluent.io/wp-content/themes/confluent/assets/images/confluent-logo-300.png
+    keywords:
+    - confluent
+    - kafka
+    - schema-registry
+    maintainers:
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: schema-registry
+    sources:
+    - https://github.com/confluentinc/schema-registry
+    - https://github.com/confluentinc/cp-docker-images
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/schema-registry-1.1.4.tgz
+    version: 1.1.4
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-05-22T14:58:47.850034107Z
+    description: Schema Registry provides a serving layer for your metadata. It provides
+      a RESTful interface for storing and retrieving Avro schemas. It stores a versioned
+      history of all schemas, provides multiple compatibility settings and allows
+      evolution of schemas according to the configured compatibility setting. It provides
+      serializers that plug into Kafka clients that handle schema storage and retrieval
+      for Kafka messages that are sent in the Avro format.
+    digest: 43f682125e1ed35976faa71e9e3cea532807fc10d120465ad21b97233e07e80c
+    home: https://docs.confluent.io/current/schema-registry/docs/index.html
+    icon: https://www.confluent.io/wp-content/themes/confluent/assets/images/confluent-logo-300.png
+    keywords:
+    - confluent
+    - kafka
+    - schema-registry
+    maintainers:
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: schema-registry
+    sources:
+    - https://github.com/confluentinc/schema-registry
+    - https://github.com/confluentinc/cp-docker-images
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/schema-registry-1.1.3.tgz
+    version: 1.1.3
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: 2019-04-23T19:29:18.932067812Z
     description: Schema Registry provides a serving layer for your metadata. It provides
       a RESTful interface for storing and retrieving Avro schemas. It stores a versioned
       history of all schemas, provides multiple compatibility settings and allows
@@ -12950,7 +14820,64 @@ entries:
   sentry-kubernetes:
   - apiVersion: v1
     appVersion: latest
-    created: 2019-04-05T12:27:12.924192774Z
+    created: 2019-07-08T14:58:51.588072311Z
+    description: A Helm chart for sentry-kubernetes (https://github.com/getsentry/sentry-kubernetes)
+    digest: 672716f8a8556361a3b3ae6a7dc3114e4d4fac598b3644c110ad3992c5b2ffd9
+    home: https://github.com/getsentry/sentry-kubernetes
+    icon: https://sentry-brand.storage.googleapis.com/sentry-glyph-white.png
+    keywords:
+    - sentry
+    - report kubernetes events
+    maintainers:
+    - email: ctadeu@gmail.com
+      name: cpanato
+    name: sentry-kubernetes
+    sources:
+    - https://github.com/getsentry/sentry-kubernetes
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/sentry-kubernetes-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v1
+    appVersion: latest
+    created: 2019-07-03T09:27:46.909538183Z
+    description: A Helm chart for sentry-kubernetes (https://github.com/getsentry/sentry-kubernetes)
+    digest: 22aee556a874560b25eaf9e08b282be54334a214e350b397f65588079f25fe35
+    home: https://github.com/getsentry/sentry-kubernetes
+    icon: https://sentry-brand.storage.googleapis.com/sentry-glyph-white.png
+    keywords:
+    - sentry
+    - report kubernetes events
+    maintainers:
+    - email: ctadeu@gmail.com
+      name: cpanato
+    name: sentry-kubernetes
+    sources:
+    - https://github.com/getsentry/sentry-kubernetes
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/sentry-kubernetes-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: latest
+    created: 2019-05-07T04:27:30.328645334Z
+    description: A Helm chart for sentry-kubernetes (https://github.com/getsentry/sentry-kubernetes)
+    digest: e237ccb754cc4d17f2f8df30b4355a0dc39fd40aa116ce8a812d3a5595c98eca
+    home: https://github.com/getsentry/sentry-kubernetes
+    icon: https://sentry-brand.storage.googleapis.com/sentry-glyph-white.png
+    keywords:
+    - sentry
+    - report kubernetes events
+    maintainers:
+    - email: ctadeu@gmail.com
+      name: cpanato
+    name: sentry-kubernetes
+    sources:
+    - https://github.com/getsentry/sentry-kubernetes
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/sentry-kubernetes-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v1
+    appVersion: latest
+    created: 2019-04-28T23:02:48.273300793Z
     description: A Helm chart for sentry-kubernetes (https://github.com/getsentry/sentry-kubernetes)
     digest: e8ec290dca4afaf66bec61936bcfe00664f93f580d2b7c3db803d9ab9503643d
     home: https://github.com/getsentry/sentry-kubernetes
@@ -13047,6 +14974,92 @@ entries:
     urls:
     - https://kubernetes-charts-incubator.storage.googleapis.com/sentry-kubernetes-0.1.0.tgz
     version: 0.1.0
+  solr:
+  - apiVersion: v1
+    appVersion: 7.7.2
+    created: 2019-07-08T14:58:51.588962953Z
+    description: 'A helm chart to install Apache Solr: http://lucene.apache.org/solr/'
+    digest: 9e1eb0cea4b7f4239827afccf08be8be286dad1bc73b23ecedda3bfbd82e9b63
+    home: http://lucene.apache.org/solr/
+    keywords:
+    - solr
+    maintainers:
+    - email: ian.thebridge@lucidworks.com
+      name: ian-thebridge-lucidworks
+    name: solr
+    sources:
+    - https://gitbox.apache.org/repos/asf?p=lucene-solr.git
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/solr-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v1
+    appVersion: 7.6.0
+    created: 2019-07-07T08:28:43.912424456Z
+    description: 'A helm chart to install Apache Solr: http://lucene.apache.org/solr/'
+    digest: fecaaa77954f7a5e601615f73e2cbb2b646a844d8c590ca8809962fa8edfa631
+    home: http://lucene.apache.org/solr/
+    keywords:
+    - solr
+    maintainers:
+    - email: ian.thebridge@lucidworks.com
+      name: ian-thebridge-lucidworks
+    name: solr
+    sources:
+    - https://gitbox.apache.org/repos/asf?p=lucene-solr.git
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/solr-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
+    appVersion: 7.6.0
+    created: 2019-06-27T23:29:05.338750209Z
+    description: 'A helm chart to install Apache Solr: http://lucene.apache.org/solr/'
+    digest: 2c602bb4967f57abd1bd74c4f2d7178b421df358bd8af56ccfecde04d0793443
+    home: http://lucene.apache.org/solr/
+    keywords:
+    - solr
+    maintainers:
+    - email: ian.thebridge@lucidworks.com
+      name: ian-thebridge-lucidworks
+    name: solr
+    sources:
+    - https://gitbox.apache.org/repos/asf?p=lucene-solr.git
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/solr-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    appVersion: 7.6.0
+    created: 2019-06-16T05:27:57.23411068Z
+    description: 'A helm chart to install Apache Solr: http://lucene.apache.org/solr/'
+    digest: 0eec2555b2a7eb7baa1c251c6f117c6d8233e1c8d6338284d295d40dd019dd6e
+    home: http://lucene.apache.org/solr/
+    keywords:
+    - solr
+    maintainers:
+    - email: ian.thebridge@lucidworks.com
+      name: ian-thebridge-lucidworks
+    name: solr
+    sources:
+    - https://gitbox.apache.org/repos/asf?p=lucene-solr.git
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/solr-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 7.6.0
+    created: 2019-06-11T18:27:54.718982057Z
+    description: 'A helm chart to install Apache Solr: http://lucene.apache.org/solr/'
+    digest: 470bd071353fe5b3523566adf9d68323bf38d4f2723951e9d5fe0000f6c18840
+    home: http://lucene.apache.org/solr/
+    keywords:
+    - solr
+    maintainers:
+    - email: ian.thebridge@lucidworks.com
+      name: ian-thebridge-lucidworks
+    name: solr
+    sources:
+    - https://gitbox.apache.org/repos/asf?p=lucene-solr.git
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/solr-1.0.0.tgz
+    version: 1.0.0
   spark:
   - created: 2016-11-03T23:18:36.14204009Z
     description: A Apache Spark Helm chart for Kubernetes. Apache Spark is a fast
@@ -13079,8 +15092,85 @@ entries:
     - http://storage.googleapis.com/kubernetes-charts-incubator/spark-0.1.0.tgz
     version: 0.1.0
   sparkoperator:
+  - apiVersion: v1
+    appVersion: v2.4.0-v1beta1-0.8.2
+    created: 2019-07-08T14:58:51.589303417Z
+    description: A Helm chart for Spark on Kubernetes operator
+    digest: f59b96c88dbece5bc9ceb187e2e867ac069772d47aed2d8d760ebb80be48db30
+    home: https://github.com/GoogleCloudPlatform/spark-on-k8s-operator
+    keywords:
+    - spark
+    kubeVersion: '>=1.8.0-0'
+    maintainers:
+    - email: yuchaoran2011@gmail.com
+      name: yuchaoran2011
+    name: sparkoperator
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/sparkoperator-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v1
+    appVersion: v2.4.0-v1beta1-0.8.2
+    created: 2019-06-21T18:58:36.637876208Z
+    description: A Helm chart for Spark on Kubernetes operator
+    digest: b0f2f6dba50ba753b193b8fe51febcfde1106e30386b4126cc7df05dab80f92b
+    home: https://github.com/GoogleCloudPlatform/spark-on-k8s-operator
+    keywords:
+    - spark
+    kubeVersion: '>=1.8.0-0'
+    maintainers:
+    - email: yuchaoran2011@gmail.com
+      name: yuchaoran2011
+    name: sparkoperator
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/sparkoperator-0.2.3.tgz
+    version: 0.2.3
+  - appVersion: v2.4.0-v1beta1-0.8.2
+    created: 2019-05-15T12:28:14.527347974Z
+    description: A Helm chart for Spark on Kubernetes operator
+    digest: 8bc53e2c4f27275eed55a15849eb1b9f97ef7daab54a399c3404b29d790bc0a7
+    home: https://github.com/GoogleCloudPlatform/spark-on-k8s-operator
+    keywords:
+    - spark
+    kubeVersion: '>=1.8.0-0'
+    maintainers:
+    - email: yuchaoran2011@gmail.com
+      name: yuchaoran2011
+    name: sparkoperator
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/sparkoperator-0.2.2.tgz
+    version: 0.2.2
+  - appVersion: v2.4.0-v1beta1-0.8.2
+    created: 2019-05-02T01:57:24.755771404Z
+    description: A Helm chart for Spark on Kubernetes operator
+    digest: 68cb73c2e6e2e7c9dc7a598f9195380cb61d82c4adf128f8fced38e943202e94
+    home: https://github.com/GoogleCloudPlatform/spark-on-k8s-operator
+    keywords:
+    - spark
+    kubeVersion: '>=1.8.0-0'
+    maintainers:
+    - email: yuchaoran2011@gmail.com
+      name: yuchaoran2011
+    name: sparkoperator
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/sparkoperator-0.2.1.tgz
+    version: 0.2.1
   - appVersion: v1beta1-0.8.1-2.4.0
-    created: 2019-04-05T12:27:12.924554003Z
+    created: 2019-04-21T22:27:31.575938525Z
+    description: A Helm chart for Spark on Kubernetes operator
+    digest: d156cc031ec449424e55436349ccf3677743c07ac84ebeda65d03e4ee7259db8
+    home: https://github.com/GoogleCloudPlatform/spark-on-k8s-operator
+    keywords:
+    - spark
+    kubeVersion: '>=1.8.0-0'
+    maintainers:
+    - email: yuchaoran2011@gmail.com
+      name: yuchaoran2011
+    name: sparkoperator
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/sparkoperator-0.2.0.tgz
+    version: 0.2.0
+  - appVersion: v1beta1-0.8.1-2.4.0
+    created: 2019-04-09T14:57:04.781314333Z
     description: A Helm chart for Spark on Kubernetes operator
     digest: c23cd9f220024ca7db0b89f1ec153eaea86d6389b555b630a449bae0e90ff188
     home: https://github.com/GoogleCloudPlatform/spark-on-k8s-operator
@@ -13292,7 +15382,7 @@ entries:
   spring-cloud-data-flow:
   - apiVersion: v1
     appVersion: 1.6.2.RELEASE
-    created: 2019-04-05T12:27:12.925768395Z
+    created: 2019-07-08T14:58:51.590528053Z
     deprecated: true
     description: DEPRECATED Toolkit for building data processing pipelines.
     digest: 243d8173d5f8fe989a48d2499cbf80bfabdf82e263ce2ac4cd4582e15c2a9bcc
@@ -13468,8 +15558,28 @@ entries:
     - https://kubernetes-charts-incubator.storage.googleapis.com/spring-cloud-data-flow-0.1.0.tgz
     version: 0.1.0
   tensorflow-inception:
+  - apiVersion: v1
+    appVersion: 1.4.0
+    created: 2019-07-08T14:58:51.590812356Z
+    description: Open source software library for numerical computation using data
+      flow graphs.
+    digest: b3af73560ee1f980f9de70e47c6fea5831202b008ad3cca3f7e817a2a95ffe00
+    home: https://github.com/kubernetes/charts
+    icon: https://camo.githubusercontent.com/ee91ac3c9f5ad840ebf70b54284498fe0e6ddb92/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f7472616e73702e706e67
+    maintainers:
+    - email: lachlan.evenson@gmail.com
+      name: lachie83
+    - email: thomas.jungblut@gmail.com
+      name: thomasjungblut
+    name: tensorflow-inception
+    sources:
+    - https://github.com/tensorflow/
+    - https://tensorflow.github.io/serving/serving_inception.html
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/tensorflow-inception-0.4.1.tgz
+    version: 0.4.1
   - appVersion: 1.4.0
-    created: 2019-04-05T12:27:12.926185046Z
+    created: 2019-05-16T06:27:43.463363623Z
     description: Open source software library for numerical computation using data
       flow graphs.
     digest: 1ccd61d504b44c9fce8e112eb38b20ebef75e7fb3a491b1600a1b763eeaebe82
@@ -13585,8 +15695,233 @@ entries:
     version: 0.1.0
   vault:
   - apiVersion: v1
+    appVersion: 1.1.2
+    created: 2019-07-08T14:58:51.59131162Z
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: dc74f00d0a8a3fdf08e4cff781cea3bfafee07d6b54829beaa13acbfcd50aed4
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    - email: jbialy@gmail.com
+      name: jbialy
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/vault-0.18.11.tgz
+    version: 0.18.11
+  - apiVersion: v1
+    appVersion: 1.1.2
+    created: 2019-06-28T03:28:26.30388027Z
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: 953ee67c0a4c326585cd0ecb319d1312d96a92862860de5633252b1848857688
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    - email: jbialy@gmail.com
+      name: jbialy
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/vault-0.18.10.tgz
+    version: 0.18.10
+  - apiVersion: v1
+    appVersion: 1.1.2
+    created: 2019-06-27T07:28:54.087627786Z
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: 1faa6224b2af58d1e2de10145aa3b6713124940b87165195734f3fbf67482873
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/vault-0.18.9.tgz
+    version: 0.18.9
+  - apiVersion: v1
     appVersion: 1.0.1
-    created: 2019-04-05T12:27:12.927261421Z
+    created: 2019-06-04T15:28:39.589484739Z
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: 692fe3f8e1af29aa242071f53e8eeec2d5332ca3f1d004655f998402bd78ba96
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/vault-0.18.8.tgz
+    version: 0.18.8
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: 2019-06-04T13:27:35.270955183Z
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: d5263d656ab447c99f2883e03d05e25d42539a507a2c632003ace8a0a57ef070
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/vault-0.18.7.tgz
+    version: 0.18.7
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: 2019-05-15T09:27:28.843815458Z
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: 0c1ab01ff472d577be618b2f3417f7396cc70def2c82dc938bdcaefaae03ead4
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/vault-0.18.6.tgz
+    version: 0.18.6
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: 2019-05-07T22:27:27.00427101Z
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: f1637084d198f44408b0451ac85f452c060d387606ec87aa6f58276f3ca4f99e
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/vault-0.18.5.tgz
+    version: 0.18.5
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: 2019-04-30T15:57:29.581973603Z
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: 27bcbe46097459b8bd9574c1351b74c8e4da5c2c6795d9b91e5f77102b194dad
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/vault-0.18.4.tgz
+    version: 0.18.4
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: 2019-04-29T18:57:44.779770709Z
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: f485eaaf123fa66bffe54f7eed7b8d6fdfd80691ecf77032f7bb418db33f2184
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/vault-0.18.3.tgz
+    version: 0.18.3
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: 2019-04-28T12:02:46.731231552Z
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: 1e9b40b64ebb0cc4d4c692fe7e8e4454ba63b19a708aa9b3a5c572e5b12aea24
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/vault-0.18.2.tgz
+    version: 0.18.2
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: 2019-04-25T08:27:26.180968192Z
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: 5676b9b92a7cee352fccc619f3342b99f926e61a4a2716a200f6ed8a05fcca17
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/vault-0.18.1.tgz
+    version: 0.18.1
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: 2019-04-22T14:57:21.850679765Z
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: f0340d91e4aa2c63bf7bec4bbd6127c6a025a6399e1a4f72b392bc01c8cc97c7
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/vault-0.18.0.tgz
+    version: 0.18.0
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: 2019-04-22T13:27:46.276557595Z
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: 8ec7f252edac96e9eee5373bd92ae07860462ef2142558d5109dd11fcc7551ec
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/vault-0.17.1.tgz
+    version: 0.17.1
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: 2019-04-21T16:56:50.345034036Z
     description: A Helm chart for Vault, a tool for managing secrets
     digest: 96f2e115a02d24fe6581c2c7eea6feed11cc17a4dbb386377d7fb9f7bdd7b16e
     home: https://www.vaultproject.io/
@@ -14199,7 +16534,7 @@ entries:
   vaultingkube:
   - apiVersion: v1
     appVersion: 0.1.1
-    created: 2019-04-05T12:27:12.927813653Z
+    created: 2019-07-08T14:58:51.591575361Z
     description: vaultingkube takes config maps and secrets stored inside Hashicorp
       Vault and syncs them to your Kubernetes cluster.
     digest: 835dbd6a81f2a11629b0b8ceedc1322c95bb1de41dce1ebe3f6fc221327d3d44
@@ -14232,7 +16567,7 @@ entries:
   webpagetest-agent:
   - apiVersion: v1
     appVersion: 2018-01-23
-    created: 2019-04-05T12:27:12.92811743Z
+    created: 2019-07-08T14:58:51.591849013Z
     description: A Helm chart for Kubernetes
     digest: 8b1b81dfd15c5d0e57aea9b67a0db64937706500da4caeeae1e3a738217815d7
     home: https://www.webpagetest.org/
@@ -14320,7 +16655,7 @@ entries:
   webpagetest-server:
   - apiVersion: v1
     appVersion: 2018-03-08
-    created: 2019-04-05T12:27:12.928522413Z
+    created: 2019-07-08T14:58:51.592278672Z
     description: A Helm chart for Kubernetes
     digest: 7fa53fcada711541f23835c5945a9176c2bbb4cb97724287db0a4e5bd89cba74
     home: https://www.webpagetest.org/
@@ -14460,7 +16795,7 @@ entries:
   xray:
   - apiVersion: v1
     appVersion: 2.1.0
-    created: 2019-04-05T12:27:12.930116744Z
+    created: 2019-07-08T14:58:51.593904415Z
     deprecated: true
     description: DEPRECATED Universal component scan for security and license inventory
       and impact analysis
@@ -14524,8 +16859,87 @@ entries:
     - https://kubernetes-charts-incubator.storage.googleapis.com/xray-0.3.0.tgz
     version: 0.3.0
   zookeeper:
+  - apiVersion: v1
+    appVersion: 3.4.10
+    created: 2019-07-08T14:58:51.594449959Z
+    description: Centralized service for maintaining configuration information, naming,
+      providing distributed synchronization, and providing group services.
+    digest: 3c9f015e43bad324b3f4f1a05d1165aec0867f7edbe61e8b15639facdeb0d893
+    home: https://zookeeper.apache.org/
+    icon: https://zookeeper.apache.org/images/zookeeper_small.gif
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: owensk@google.com
+      name: kow3ns
+    name: zookeeper
+    sources:
+    - https://github.com/apache/zookeeper
+    - https://github.com/kubernetes/contrib/tree/master/statefulsets/zookeeper
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/zookeeper-1.3.3.tgz
+    version: 1.3.3
+  - apiVersion: v1
+    appVersion: 3.4.10
+    created: 2019-06-27T14:28:18.333550936Z
+    description: Centralized service for maintaining configuration information, naming,
+      providing distributed synchronization, and providing group services.
+    digest: 46bf1751b1424c241b690100409a7ceabcbb3dc657e986d4f8fe5886a38d166c
+    home: https://zookeeper.apache.org/
+    icon: https://zookeeper.apache.org/images/zookeeper_small.gif
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: owensk@google.com
+      name: kow3ns
+    name: zookeeper
+    sources:
+    - https://github.com/apache/zookeeper
+    - https://github.com/kubernetes/contrib/tree/master/statefulsets/zookeeper
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/zookeeper-1.3.2.tgz
+    version: 1.3.2
+  - apiVersion: v1
+    appVersion: 3.4.10
+    created: 2019-06-21T16:58:32.501801624Z
+    description: Centralized service for maintaining configuration information, naming,
+      providing distributed synchronization, and providing group services.
+    digest: ac47365fead1650bde7d4ddd233ad0bf0b36f75af4371ad550536cabcd3c7bc2
+    home: https://zookeeper.apache.org/
+    icon: https://zookeeper.apache.org/images/zookeeper_small.gif
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: owensk@google.com
+      name: kow3ns
+    name: zookeeper
+    sources:
+    - https://github.com/apache/zookeeper
+    - https://github.com/kubernetes/contrib/tree/master/statefulsets/zookeeper
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/zookeeper-1.3.1.tgz
+    version: 1.3.1
   - appVersion: 3.4.10
-    created: 2019-04-05T12:27:12.930628954Z
+    created: 2019-05-15T12:28:14.532367459Z
+    description: Centralized service for maintaining configuration information, naming,
+      providing distributed synchronization, and providing group services.
+    digest: 6bafff0bb6bfd91cf62ab9f8c3da18301694ec9bc00c3bbe0f89bac949070710
+    home: https://zookeeper.apache.org/
+    icon: https://zookeeper.apache.org/images/zookeeper_small.gif
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: owensk@google.com
+      name: kow3ns
+    name: zookeeper
+    sources:
+    - https://github.com/apache/zookeeper
+    - https://github.com/kubernetes/contrib/tree/master/statefulsets/zookeeper
+    urls:
+    - https://kubernetes-charts-incubator.storage.googleapis.com/zookeeper-1.3.0.tgz
+    version: 1.3.0
+  - appVersion: 3.4.10
+    created: 2019-04-22T06:27:40.249111705Z
     description: Centralized service for maintaining configuration information, naming,
       providing distributed synchronization, and providing group services.
     digest: d0e41f0fc983e47cf17c2db02472f8a580fb830e715ebb68370926e29ede8a9c
@@ -15133,4 +17547,4 @@ entries:
     urls:
     - http://storage.googleapis.com/kubernetes-charts-incubator/zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: 2019-04-05T12:27:12.888058065Z
+generated: 2019-07-08T14:58:51.547835875Z
