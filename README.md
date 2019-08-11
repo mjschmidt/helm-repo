@@ -2,7 +2,8 @@
 
 ## Pre-Req
 ```
-mkdir ~/low-to-high-chart-zips
+#clone down the complimentary repsistory or an empty one where where you wish to push charts to git
+https://github.com/mjschmidt/low-to-high-chart-zips.git
 #clone my repository
 git clone https://github.com/mjschmidt/test-helm-repo.git
 # cd in 
