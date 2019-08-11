@@ -4,7 +4,7 @@
 #clone my repository
 git clone https://github.com/mjschmidt/test-helm-repo.git
 # cd in 
-cd test-helm-repo/
+cd helm-repo/
 #install gsutil
 curl https://sdk.cloud.google.com | bash
 exec -l $SHELL
