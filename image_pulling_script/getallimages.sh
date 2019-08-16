@@ -1,5 +1,6 @@
 imagestoreurl=https://test.com
-bucket=logo
+chartstoreurl=test.com
+bucket=pics
 indexfilestable=~/pics/stable/index.yaml
 indexfileincubator=~/pics/incubator/index.yaml
 
@@ -57,6 +58,8 @@ curl -o ~/pics/incubator/$(echo $f | sed 's/https\:\/\///g' | sed 's/\//-/g') $f
 echo
 sleep .04
 done
+sed -i "s/kubernetes-charts.storage.googleapis.com/$chartstoreurl\/stable/g"  $indexfilestable
+sed -i "s/kubernetes-charts-incubator.storage.googleapis.com/$chartstoreurl\/incubator/g"  $indexfileincubator
 mv ~/pics/helmpics.zip ~/pics/helmpics_old.zip
 zip -r ~/pics/helmpics.zip ~/pics/
 echo 
