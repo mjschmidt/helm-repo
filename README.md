@@ -40,5 +40,5 @@ cd helm-repo/image_pulling_script
 
 cd ~/pics
 
-helmpics.zip is both stable and incubator pics
+#helmpics.zip is both stable and incubator pics
 ```
