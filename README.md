@@ -5,7 +5,7 @@
 #clone down the complimentary repsistory or an empty one where where you wish to push charts to git
 https://github.com/mjschmidt/low-to-high-chart-zips.git
 #clone my repository
-git clone https://github.com/mjschmidt/test-helm-repo.git
+git clone https://github.com/mjschmidt/helm-repo
 # cd in 
 cd helm-repo/
 #install gsutil
