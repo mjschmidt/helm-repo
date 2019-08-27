@@ -31,3 +31,14 @@ zip -r ~/low-to-high-chart-zips/kubernetes-charts-incubator.zip kubernetes-chart
 #how to add a repo
 helm repo add sample 'https://raw.githubusercontent.com/mjschmidt/test-helm-repo/master/kubernetes-charts/'
 ```
+
+```
+#How to pull the images
+
+cd helm-repo/image_pulling_script
+./getallimages.sh
+
+cd ~/pics
+
+#helmpics.zip is both stable and incubator pics
+```
